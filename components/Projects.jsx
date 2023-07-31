@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import exquisitetastesImg from '../public/assets/projects/13.png';
+import insightImg from '../public/assets/projects/9.png'
+import myverseImg from '../public/assets/projects/7.png'
+import companyImg from '../public/assets/projects/10.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -14,32 +14,32 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
         </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
+        <h2 className='py-4'>What I&apos;ve Been Working On To Improve On My SkillSets</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
+            title='Exquisite Tastes'
+            backgroundImg={exquisitetastesImg}
+            projectUrl='/exquisitetastes'
             tech='React JS'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            title='Insight WebApp'
+            backgroundImg={insightImg}
+            projectUrl='/insight'
             tech='React JS'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
+            title='MyVerse WebApp'
+            backgroundImg={myverseImg}
+            projectUrl='/myverse'
+            tech='React JS'
+
+          />
+          <ProjectItem
+            title='Company Website'
+            backgroundImg={companyImg}
+            projectUrl='/company'
             tech='Next JS'
 
           />
