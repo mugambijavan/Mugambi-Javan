@@ -58,7 +58,7 @@ const Contact = () => {
             </a>
 
             <a
-              href=''
+              href='mailto:mugambijavan@gmail.com'
               target='_blank'
               rel='noreferrer'
             >
@@ -68,7 +68,7 @@ const Contact = () => {
             </a>
 
             <a
-              href=''
+              href='https://twitter.com/mugambi_javan'
               target='_blank'
               rel='noreferrer'
             >
@@ -78,7 +78,7 @@ const Contact = () => {
             </a>
 
             <a
-              href=''
+              href='https://t.me/KamiriJavan'
               target='_blank'
               rel='noreferrer'
             >

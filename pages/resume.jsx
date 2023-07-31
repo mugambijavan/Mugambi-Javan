@@ -20,14 +20,14 @@ const resume = () => {
           <h2 className='text-center'>Mugambi Javan Nyaga</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/javan-mugambi-2351a81b0/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/mugambijavan'
               target='_blank'
               rel='noreferrer'
             >
@@ -41,11 +41,7 @@ const resume = () => {
               Software Engineer <span className='px-1'>|</span> Full-Stack Web Development{' '}
             </p>
           </div>
-          <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
-          </div>
+          
         </div>
         <p>
           Highly dedicated and effective web developer with over 3 years of expertise. 
@@ -79,9 +75,8 @@ const resume = () => {
             <span className='px-2'>|</span>Next.JS
             <span className='px-2'>|</span>SQL
             <span className='px-2'>|</span>Figma
-            <span className='px-2'>|</span>Redux
+            <span className='px-2'>|</span>Typescript
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
             <span className='px-2'>|</span> RESTAPI
           </p>
           <p className='py-2'>
@@ -137,6 +132,36 @@ const resume = () => {
             
           </ul>
         </div>
+
+        <h5 className='text-center underline text-[18px] py-4'>
+          Career Goals
+        </h5>
+        {/* Experience */}
+        <div className='py-6'>
+          
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            My ultimate goal is to create software applications that not only meet customer satisfaction but also make a meaningful difference in people's lives by addressing real-world problems and enhancing their experiences.
+            </li>
+            <li>
+            I aspire to contribute to open-source projects and collaborate with like-minded professionals to give back to the software engineering community and make a positive impact on a global scale.
+            </li>
+            <li>
+            I am committed to adopting best practices in software development, including agile methodologies, test-driven development, and code reviews, to ensure the delivery of high-quality and reliable software products.
+            </li>
+            <li>
+            My career objective includes taking up leadership roles, where I can mentor and guide junior developers, contributing to the growth of the software engineering community.
+            </li>
+            <li>
+            Building on my current skill set, I seek to become proficient in new programming languages and frameworks, broadening my ability to tackle a wide range of development challenges.
+            </li>
+            <li>
+            I aspire to continuously expand my technical expertise and stay updated with emerging technologies, enabling me to create cutting-edge and scalable software solutions.
+            </li>
+           
+          </ul>
+        </div>
+
       </div>
     </>
   );

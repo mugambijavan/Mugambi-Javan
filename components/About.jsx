@@ -11,7 +11,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>My goal is to build products and services that meet customer satisfaction</h2>
           <p className='py-2 text-gray-600'>
             I'm  a passionate and detail-oriented software
             engineer with over 3 years of experience. Proficient in JavaScript, TypeScript, HTML, 

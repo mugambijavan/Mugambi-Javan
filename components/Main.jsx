@@ -10,12 +10,12 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S BUILD SOMETHING GREAT TOGETHER
+            LET&#39;S EMBARK ON A JOURNEY OF EXCELLENCE 
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Mugambi Javan</span>
+            Greetings, I&#39;m <span className='text-[#5651e5]'> Mugambi Javan</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Software Engineer</h1>
+          <h1 className='py-2 text-gray-700'>A Dedicated Software Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           I am dedicated to crafting highly responsive front-end web applications that seamlessly integrate with cutting-edge back-end technologies, ensuring an unparalleled user experience and functionality.
           </p>
@@ -41,7 +41,7 @@ const Main = () => {
             </a>
 
             <a
-              href=''
+              href='mailto:mugambijavan@gmail.com'
               target='_blank'
               rel='noreferrer'
             >
@@ -51,7 +51,7 @@ const Main = () => {
             </a>
 
             <a
-              href=''
+              href='https://twitter.com/mugambi_javan'
               target='_blank'
               rel='noreferrer'
             >
@@ -61,7 +61,7 @@ const Main = () => {
             </a>
 
             <a
-              href=''
+              href='https://t.me/KamiriJavan'
               target='_blank'
               rel='noreferrer'
             >
