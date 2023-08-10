@@ -10,14 +10,14 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S EMBARK ON A JOURNEY OF EXCELLENCE 
+          Let&#39;s Embark on an Epic Journey Towards Excellence
           </p>
           <h1 className='py-4 text-gray-700'>
             Greetings, I&#39;m <span className='text-[#5651e5]'> Mugambi Javan</span>
           </h1>
           <h1 className='py-2 text-gray-700'>A Dedicated Software Engineer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          I am dedicated to crafting highly responsive front-end web applications that seamlessly integrate with cutting-edge back-end technologies, ensuring an unparalleled user experience and functionality.
+          My passion lies in sculpting highly responsive front-end web applications that seamlessly integrate with state-of-the-art back-end technologies. , ensuring an unparalleled user experience, , where functionality meets elegance.
           </p>
           <div className='flex items-center justify-between max-w-[360px] m-auto py-4'>
             <a
