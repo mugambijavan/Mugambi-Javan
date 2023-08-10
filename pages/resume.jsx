@@ -38,7 +38,7 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Software Engineer <span className='px-1'>|</span> Full-Stack Web Development{' '}
+              Software Engineer <span className='px-1'>|</span> Full-Stack Web Developer{' '}
             </p>
           </div>
           
@@ -117,17 +117,101 @@ const resume = () => {
       
         {/* Experience */}
         <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>Sirikwa Dairies LTD, Kenya</span>
-            
-          </p>
-          <p className='py-1 italic'>Web Developer </p>
+        <p className='italic'>
+          <span className='font-bold'>Sirikwa Dairies LTD, Kenya</span>
+        </p>
+        <a
+          href="https://sirikwadairies.co.ke"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: 'white',
+            border: '2px solid black',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            color: 'black',
+            transition: 'background-color 0.3s, color 0.3s',
+          }}
+        >
+          Visit their website
+        </a>
+
+          <p className='py-1 italic'>Software Developer </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            I have successfully collaborated with cross-functional teams to develop and maintain responsive web applications using JavaScript, HTML, and CSS. 
+            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
             </li>
             <li>
-            I take pride in my ability to implement new features and enhancements, ensuring high performance, scalability, and usability.
+            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
+            </li>
+            
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>STEM For Life Foundation Kenya</span>            
+          </p>
+          <a
+          href="https://stemforlifekenya.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: 'white',
+            border: '2px solid black',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            color: 'black',
+            transition: 'background-color 0.3s, color 0.3s',
+          }}
+        >
+          Visit their website
+        </a>
+          <p className='py-1 italic'>Software Developer </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Among my accomplishments, I spearheaded the development of a website for a reputable NGO. Collaborating seamlessly with the organization's team, I utilized my proficiency in JavaScript, HTML, and CSS to create a responsive and impactful web presence.
+            </li>
+            <li>
+            By incorporating interactive elements and highlighting the NGO's mission, I ensured that the website effectively communicated its initiatives. This project showcases my ability to leverage technology to further noble causes and connect communities through a user-friendly and informative online platform.
+            </li>
+            
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>M-FAMA Technologies Holding</span>
+            
+          </p>
+          <a
+          href="https://mfama.co.ke"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: 'white',
+            border: '2px solid black',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            color: 'black',
+            transition: 'background-color 0.3s, color 0.3s',
+          }}
+        >
+          Visit their website
+        </a>
+          <p className='py-1 italic'>Software Developer</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            My involvement in the creation of a corporate website for a cutting-edge technology solutions provider reflects my commitment to excellence. By synergizing with cross-functional teams, I skillfully utilized JavaScript, HTML, and CSS to develop a responsive web application that showcases the company's prowess and offerings. 
+            </li>
+            <li>
+            My contributions encompassed the implementation of advanced functionalities, culminating in a website that encapsulates optimal performance, adaptability, and user-centric design.
             </li>
             
           </ul>
