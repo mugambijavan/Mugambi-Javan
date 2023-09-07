@@ -44,7 +44,7 @@ const resume = () => {
           
         </div>
         <p>
-          Highly dedicated and effective web developer with over 3 years of expertise. 
+          I'm a highly dedicated and effective web developer with over 3 years of expertise. 
           Bilingual, detail-oriented, and deadline-driven. Seeking a developer position 
           that leverages a strong understanding of technology and a background in marketing. 
           Experienced in managing teams and skilled in data marketing analysis and website 
