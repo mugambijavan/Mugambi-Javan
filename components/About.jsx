@@ -11,24 +11,19 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>My goal is to build products and services that meet customer satisfaction</h2>
+          <h2 className='py-4' style={{ fontSize: '17px' }}>My objective is to create products and services that consistently satisfy customers.</h2>
           <p className='py-2 text-gray-600'>
-            I'm  a passionate and detail-oriented software
-            engineer with over 3 years of experience. Proficient in JavaScript, TypeScript, HTML, 
-            CSS, React.js, and Next.js, I'm driven by a relentless pursuit of excellence.
-            From crafting clean code to collaborating with diverse teams, I'm committed to
-            delivering innovative solutions that make a positive impact. I thrive on pushing boundaries and
-            embracing new technologies, and I'm excited to share my journey of creating transformative applications.
+          Boasting years of professional experience in the dynamic software development industry, I have cultivated a versatile skill set. Proficiency in front-end technologies like HTML, CSS, SCSS, JavaScript, React.js, TypeScript, Next.js, GraphCMS, and Sanity has enabled me to craft visually stunning and responsive user interfaces. Additionally, my foundation in back-end development, including Ruby, Ruby on Rails, and SQL, ensures the robust functionality of web applications.
+
+I have diversified into mobile app development using Flutter and Dart, further enhancing my ability to provide versatile solutions to meet the ever-evolving demands of the software industry.
+
             
           </p>
           <p className='py-2 text-gray-600'>
-            Over the years, I've honed my skills in various programming languages, and I'm always excited to take on new 
-            challenges in this dynamic field. Attention to detail is my superpower, and I thrive on writing clean and efficient
-            code to deliver robust applications. Collaborating with diverse teams is where I shine, and I strongly believe in the power
-            of teamwork to drive exceptional results. Embracing continuous learning, I stay at the forefront of emerging technologies, 
-            ensuring that my work remains cutting-edge. I'm committed to making a positive impact through my software engineering journey, 
-            and I can't wait to contribute my expertise to transformative projects that shape the future of technology. 
-            Let's connect and explore the endless possibilities together!
+            
+In the realm of version control and collaborative development, I am well-versed in Git and GitHub, maintaining organized and impeccably documented work. I have a proven track record of project management and meeting milestones, all while prioritizing client satisfaction.
+
+As a software developer, I am dedicated to delivering elegant and high-quality software solutions, consistently enhancing user experiences. I am eager to contribute my skills and experiences to your team, furthering your organization's growth and success. My commitment to continuous advancement in software engineering ensures that I remain at the forefront of industry developments, ready to tackle the challenges of tomorrow.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
