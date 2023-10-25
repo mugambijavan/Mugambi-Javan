@@ -4,7 +4,7 @@ import React from 'react';
 import exquisitetastesImg from '../public/assets/projects/13.png';
 import insightImg from '../public/assets/projects/9.png'
 import myverseImg from '../public/assets/projects/7.png'
-import companyImg from '../public/assets/projects/10.png'
+import blogImg from '../public/assets/projects/10.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -44,8 +44,8 @@ const Projects = () => {
           />
           <ProjectItem
             title='Blog Website'
-            backgroundImg={companyImg}
-            projectUrl='/company'
+            backgroundImg={blogImg}
+            projectUrl='/blog'
             tech='Next JS'
 
           />

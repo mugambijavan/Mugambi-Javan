@@ -44,22 +44,18 @@ const resume = () => {
           
         </div>
         <p>
-          I'm a highly dedicated and effective web developer with over 3 years of expertise. 
-          Bilingual, detail-oriented, and deadline-driven. Seeking a developer position 
-          that leverages a strong understanding of technology and a background in marketing. 
-          Experienced in managing teams and skilled in data marketing analysis and website 
-          optimization. Excels at leading development projects in fast-paced, 
-          customer-focused environments. Creative and skilled in UI/UX design to 
-          enhance web-based technology.
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          With extensive experience in dynamic software development, I excel in front-end technologies 
+          (HTML, CSS, SCSS, JavaScript, React.js, TypeScript, Next.js), back-end (Ruby, Ruby on Rails, SQL), 
+          and mobile app development (Flutter, Dart). Proficient in Git/GitHub, I emphasize best practices and 
+          agile methodologies, ensuring project success and client satisfaction. My passion lies in delivering 
+          elegant software solutions and elevating user experiences.
+        </p>
+        <br />
+        <p>
+        As a software developer, I am dedicated to delivering elegant and high-quality software solutions, 
+        consistently enhancing user experiences. I am eager to contribute my skills and experiences to your team, 
+        furthering your organization's growth and success. My commitment to continuous advancement in software 
+        engineering ensures that I remain at the forefront of industry developments, ready to tackle the challenges of tomorrow.
         </p>
 
         {/* Skills */}
