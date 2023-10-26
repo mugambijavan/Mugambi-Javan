@@ -15,9 +15,8 @@ const Projects = () => {
           <h2 className='py-4' >
             Projects
           </h2>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>Explore a compilation of innovative projects showcasing cutting-edge solutions,
-            exceptional user experiences, and real-world problem-solving; stay tuned for upcoming additions that 
-            demonstrate my dedication to pushing technology's boundaries.
+          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+            Explore Projects: Innovating for a Better Future.
           </p>
 
 
