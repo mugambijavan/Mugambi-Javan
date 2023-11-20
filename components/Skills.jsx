@@ -8,7 +8,6 @@ import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Aws from '../public/assets/skills/aws.png';
 import NextJS from '../public/assets/skills/nextjs.png'
-import AWS from '../public/assets/skills/aws.png';
 import Node from '../public/assets/skills/node.png';
 import Typescript from '../public/assets/skills/typescript.png';
 import Angular from '../public/assets/skills/angular.png';
@@ -145,6 +144,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   );
