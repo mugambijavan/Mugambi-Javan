@@ -44,15 +44,12 @@ const resume = () => {
           
         </div>
         <p>
-        I’m an intermediate professional in the dynamic software development industry, having diligently honed my skills and expertise to become a versatile and forward-thinking software developer. My journey in this field has led me to master a diverse array of technologies and tools, enabling me to make significant contributions to a wide range of successful software projects.
-        My foundation in front-end development is robust. Proficient in HTML, CSS, and SCSS, I have meticulously crafted visually stunning and responsive user interfaces, consistently enhancing the overall user experience. My mastery of JavaScript, React.js, TypeScript, Next.js, GraphCMS, and Sanity has empowered me to build highly interactive and dynamic web applications, captivating and engaging users.
-        Additionally, I've developed a strong foundation in back-end development, utilizing technologies such as Node.js, MongoDB, Ruby and Ruby on Rails, along with SQL for managing and querying relational databases. These skills complement my ability to build robust web applications, ensuring the seamless functionality of the software I create.
-        My skill set has been expanded to include mobile app development, where I've embraced Flutter and Dart to create cross-platform applications. This diversification underscores my ability to provide versatile solutions that aptly meet the ever-evolving demands of the software industry. <br />
-        In the domain of version control and collaborative development, I am well-versed in using Git and GitHub, ensuring that my work is not only well-organized but also impeccably documented. This seamless integration with cross-functional teams has become a cornerstone of my work. My experience extends to deploying projects effortlessly on platforms such as Netlify and Vercel, consistently yielding highly scalable and high-performance web applications.
-        Moreover, I possess ethical hacking skills, serving as a white hat in the cybersecurity domain. This expertise allows me to proactively identify and address security vulnerabilities in software systems, ensuring the robustness of applications and safeguarding sensitive information.
-        Throughout my career, I have remained unwavering in my commitment to best practices and agile methodologies. This steadfast dedication facilitates efficient communication, precise project management, and a demonstrated track record of consistently meeting project milestones. Client satisfaction remains a top priority, and I take immense pride in consistently exceeding their expectations. <br />
-        As a software developer, my true passion lies in delivering elegant and high-quality software solutions that effectively address complex challenges and consistently elevate user experiences. I am eager to leverage my skills and experiences, including ethical hacking, to contribute effectively to your team, further propelling your organization's growth and success to new heights. My commitment to continuous advancement in the field of software engineering ensures that I remain at the forefront of industry developments, ready to tackle the challenges of tomorrow.
-        </p>
+        I'm an intermediate software developer with expertise in front-end tech like JavaScript, HTML, CSS,
+        React.js, TypeScript, and Next.js. I also handle mobile app development using Flutter and Dart. On the
+        back end, I'm comfortable with Node.js, MongoDB, Ruby, and Ruby on Rails. Git and GitHub are my
+        go-to for version control, and my skils extend to ethical hacking and blockchain development. I
+        prioritize clean, modular code and folow industry best practices, coupled with strong problem-solving
+        and communication skils.</p>
 
         {/* Skills */}
         <div className='text-center py-4'>
@@ -136,6 +133,15 @@ const resume = () => {
               front-end development.
             </li> 
           </ul>
+        </div>
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            University of Nairobi
+            </span>
+            
+          </p>
+          <p className='py-1 italic'>Bsc Maths</p>
         </div>
 
         {/*  */}

@@ -16,7 +16,7 @@ const Projects = () => {
             Projects
           </h2>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            Explore Projects: Innovating for a Better Future.
+          "Elevating User Experiences through Responsive Web Development."
           </p>
 
 
