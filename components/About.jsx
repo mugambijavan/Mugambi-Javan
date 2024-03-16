@@ -8,9 +8,6 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
-            About
-          </p>
           <h2 className='py-4' style={{ fontSize: '17px' }}>My objective is to create products and services that consistently satisfy customers.</h2>
           <p className='py-2 text-gray-600'>
           Software Engineer with a passion for building elegant and user-centric experiences. I bring a diverse skillset to the table, proficient in both front-end (HTML, CSS, JavaScript frameworks like React & Next.js) and back-end development (Ruby on Rails, SQL). My experience extends to mobile app development with Flutter/Dart, ensuring I can deliver solutions across platforms. Version control with Git and a collaborative workflow using GitHub keep my projects organized and maintainable.  Beyond technical expertise, I value clear communication and exceeding client expectations through a commitment to high-quality software and continuous learning. I'm eager to contribute my skills and enthusiasm to your team, fostering growth and success.  
