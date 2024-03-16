@@ -38,7 +38,7 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Software Engineer <span className='px-1'>|</span> Full-Stack Web Developer{' '}
+              Software Engineer <span className='px-1'>|</span> Full-Stack Developer{' '}
             </p>
           </div>
           
@@ -53,7 +53,7 @@ const resume = () => {
 
         {/* Skills */}
         <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
+          <h5 className='text-center underline text-[18px] py-2'>Tech-Stack</h5>
           <p className='py-2'>
             <span className='px-2'></span> HTML
             <span className='px-2'>|</span>CSS
