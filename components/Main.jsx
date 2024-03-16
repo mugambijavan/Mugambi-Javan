@@ -13,12 +13,12 @@ const Main = () => {
           Hello There!
           </p>
           <h1 className='py-4 text-gray-700'>
-            Greetings, I&#39;m <span className='text-[#4e9ffc]'> Mugambi Javan</span>
+            <span className='text-[#4e9ffc]'> Mugambi Javan</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Software Engineer</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-          My passion lies in building highly responsive front-end web applications that seamlessly integrate with state-of-the-art back-end technologies, ensuring an unparalleled user experience , where functionality meets elegance.
-          </p>
+          <h1 className='py-2 text-gray-700'>Software Engineer</h1>
+            <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+            Building user-friendly interfaces with cutting-edge tech.
+            </p>
           <div className='flex items-center justify-between max-w-[360px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/javan-mugambi-2351a81b0/'
