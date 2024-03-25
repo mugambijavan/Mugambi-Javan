@@ -44,7 +44,7 @@ const resume = () => {
           
         </div>
         <p>
-        I'm an intermediate software developer with expertise in front-end tech like JavaScript, HTML, CSS,
+        I'm an intermediate Software Engineer with expertise in front-end tech like JavaScript, HTML, CSS,
         React.js, TypeScript, and Next.js. I also handle mobile app development using Flutter and Dart. On the
         back end, I'm comfortable with Node.js, MongoDB, Ruby, and Ruby on Rails. Git and GitHub are my
         go-to for version control, and my skils extend to ethical hacking and blockchain development. I
@@ -213,6 +213,108 @@ const resume = () => {
             </li>
             <li>
             My contributions encompassed the implementation of advanced functionalities, culminating in a website that encapsulates optimal performance, adaptability, and user-centric design.
+            </li>
+            
+          </ul>
+        </div>
+
+        <div className='py-6'>
+        <p className='italic'>
+          <span className='font-bold'>Lux-Lounge</span>
+        </p>
+        <a
+          href="https://luxlounge.co.ke.co.ke"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: 'white',
+            border: '2px solid black',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            color: 'black',
+            transition: 'background-color 0.3s, color 0.3s',
+          }}
+        >
+          Visit their website
+        </a>
+
+          <p className='py-1 italic'>Software Developer </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
+            </li>
+            <li>
+            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
+            </li>
+            
+          </ul>
+        </div>
+
+        <div className='py-6'>
+        <p className='italic'>
+          <span className='font-bold'>Kimori Foundation, Kenya</span>
+        </p>
+        <a
+          href="https://kimorifoundation.co.ke"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: 'white',
+            border: '2px solid black',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            color: 'black',
+            transition: 'background-color 0.3s, color 0.3s',
+          }}
+        >
+          Visit their website
+        </a>
+
+          <p className='py-1 italic'>Software Developer </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
+            </li>
+            <li>
+            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
+            </li>
+            
+          </ul>
+        </div>
+
+        <div className='py-6'>
+        <p className='italic'>
+          <span className='font-bold'>Kimmj Tours ANd Travel, Kenya</span>
+        </p>
+        <a
+          href="https://travel-with-kimmj.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: 'white',
+            border: '2px solid black',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            color: 'black',
+            transition: 'background-color 0.3s, color 0.3s',
+          }}
+        >
+          Visit their website
+        </a>
+
+          <p className='py-1 italic'>Software Developer </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
+            </li>
+            <li>
+            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
             </li>
             
           </ul>
