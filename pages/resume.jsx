@@ -56,7 +56,7 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Tech-Stack</h5>
           <p className='py-2'>
             <span className='px-2'></span> HTML
-            <span className='px-2'>|</span>CSS
+            <span className='px-2'>|</span>Dart
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React.JS
             <span className='px-2'>|</span>Next.JS  <br />
@@ -71,9 +71,9 @@ const resume = () => {
             <span className='px-2'>|</span> Express
           </p>
           <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span> <br />
+            <span className='font-bold'>Cloud Services</span> <br />
             <span className='px-2'></span>Amazon Web Services Cloud
-            Practitioner
+            Practitioner <br /> Azure Cloud
           </p>
         </div>
 
