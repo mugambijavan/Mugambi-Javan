@@ -16,6 +16,15 @@ const Main = () => {
             <span className='text-[#4e9ffc]'> Mugambi Javan</span>
           </h1>
           <h1 className='py-2 text-gray-700'>Software Engineer</h1>
+          
+          {/* Credly Badge goes here */}
+          <div
+            data-iframe-width="150"
+            data-iframe-height="270"
+            data-share-badge-id="a2df8b79-f323-4fdd-8004-cd3b1e7ab662"
+            data-share-badge-host="https://www.credly.com"
+          ></div>
+          <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
             <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             Building user-friendly interfaces with cutting-edge tech.
             </p>
