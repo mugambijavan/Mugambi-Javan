@@ -18,13 +18,14 @@ const Main = () => {
           <h1 className='py-2 text-gray-700'>Software Engineer</h1>
           
           {/* Credly Badge goes here */}
-          <div
-            data-iframe-width="150"
-            data-iframe-height="270"
-            data-share-badge-id="a2df8b79-f323-4fdd-8004-cd3b1e7ab662"
-            data-share-badge-host="https://www.credly.com"
-          ></div>
-          <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          <iframe
+              src='https://mugambijavan.github.io/badge/'
+              title='Embedded Website'
+              width='100%'
+              height='100%'  // You can adjust the height as needed
+              frameBorder='0'
+              allowFullScreen
+            ></iframe>
             <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             Building user-friendly interfaces with cutting-edge tech.
             </p>
