@@ -22,7 +22,7 @@ const Main = () => {
               src='https://mugambijavan.github.io/badge/'
               title='Embedded Website'
               width='100%'
-              height='100%'  // You can adjust the height as needed
+              height='270px'  // You can adjust the height as needed
               frameBorder='0'
               allowFullScreen
             ></iframe>
