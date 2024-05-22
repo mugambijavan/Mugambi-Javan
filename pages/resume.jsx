@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
@@ -43,13 +43,16 @@ const resume = () => {
           </div>
           
         </div>
-        <p>
-        I'm an intermediate Software Engineer with expertise in front-end tech like JavaScript, HTML, CSS,
-        React.js, TypeScript, and Next.js. I also handle mobile app development using Flutter and Dart. On the
-        back end, I'm comfortable with Node.js, MongoDB, Ruby, and Ruby on Rails. Git and GitHub are my
-        go-to for version control, and my skils extend to ethical hacking and blockchain development. I
-        prioritize clean, modular code and folow industry best practices, coupled with strong problem-solving
-        and communication skils.</p>
+          <p>
+              I'm a software engineer with experience across the full development stack. I excel in front-end
+               development using JavaScript, React.js, TypeScript, and Next.js. My mobile app development
+               skills leverage Flutter and Dart. On the back-end, I'm proficient in the MERN stack (MongoDB,
+               Express.js, React.js, Node.js) and comfortable with Ruby and Ruby on Rails. For seamless
+               version control,  Git and GitHub are my tools for seamless version control, while Appwrite and
+               Sentry empower me to optimize backend functionality and application performance. Beyond
+               technical expertise, I value clean, modular code and industry best practices. Strong problem
+              solving and communication skills ensure smooth collaboration.
+          </p>
 
         {/* Skills */}
         <div className='text-center py-4'>
