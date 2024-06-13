@@ -20,11 +20,14 @@ const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
-                <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
-                  alt='/'
-                />
+                 <iframe
+                  src='https://portfoliojavoh.vercel.app/'
+                  title='Embedded Website'
+                  width='100%'
+                  height='700'  // You can adjust the height as needed
+                  frameBorder='0'
+                  allowFullScreen
+                  ></iframe>
               </div>
               <div>
                 <h2 className='py-2'>Mugambi Javan Nyaga</h2>
