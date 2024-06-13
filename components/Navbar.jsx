@@ -66,9 +66,6 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#contact'>Hello World</Link>
-            </li>
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -117,7 +114,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Hello There
+                Hello
               </p>
             </div>
           </div>
@@ -148,11 +145,7 @@ const Navbar = () => {
                   Resume
                 </li>
               </Link>
-              <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Contact
-                </li>
-              </Link>
+        
             </ul>
           
           </div>
