@@ -9,9 +9,6 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
-          Hello There!
-          </p>
           <h1 className='py-4 text-gray-700'>
             <span className='text-[#4e9ffc]'> Mugambi Javan</span>
           </h1>
@@ -27,7 +24,7 @@ const Main = () => {
               allowFullScreen
             ></iframe>
             <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            Building user-friendly interfaces with cutting-edge tech.
+            I'm not just a Dev
             </p>
           <div className='flex items-center justify-between max-w-[360px] m-auto py-4'>
             <a
