@@ -20,7 +20,7 @@ html {
   }
 
   h1 {
-    @apply text-2xl sm:text-5xl md:text-4xl font-[Raleway]
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
   }
 
   h2 {
