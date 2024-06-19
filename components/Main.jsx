@@ -14,15 +14,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-gray-700'>Software Engineer</h1>
           
-          {/* Credly Badge goes here */}
-          <iframe
-              src='https://mugambijavan.github.io/badge/'
-              title='Embedded Website'
-              width='100%'
-              height='270px'  // You can adjust the height as needed
-              frameBorder='0'
-              allowFullScreen
-            ></iframe>
+        
             <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I'm not just a Dev
             </p>
