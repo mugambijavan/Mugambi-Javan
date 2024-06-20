@@ -44,14 +44,16 @@ const resume = () => {
           
         </div>
           <p>
-              I'm a software engineer with experience across the full development stack. I excel in front-end
-               development using JavaScript, React.js, TypeScript, and Next.js. My mobile app development
-               skills leverage Flutter and Dart. On the back-end, I'm proficient in the MERN stack (MongoDB,
-               Express.js, React.js, Node.js) and comfortable with Ruby and Ruby on Rails. For seamless
-               version control,  Git and GitHub are my tools for seamless version control, while Appwrite and
-               Sentry empower me to optimize backend functionality and application performance. Beyond
-               technical expertise, I value clean, modular code and industry best practices. Strong problem
-              solving and communication skills ensure smooth collaboration.
+              I'm a full-stack software engineer with expertise across the entire development lifecycle,
+           I excel in crafting high-quality applications from concept to completion.  My skillset spans front-end 
+           development with JavaScript, React.js, TypeScript, and Next.js, while for mobile apps I leverage Flutter and 
+           Dart. Back-end proficiency lies in the MERN stack (MongoDB, Express.js, React.js, Node.js), and I'm comfortable 
+           with Ruby and Ruby on Rails as well.  Beyond technical expertise, I'm a strong advocate for Agile methodologies, 
+           ensuring efficient workflows and clear communication to deliver projects on time. I excel at prioritizing tasks, 
+           creating realistic estimates, and managing project scope to meet client expectations.  Furthermore, I foster a collaborative
+           environment, leveraging strong communication skills to keep teams aligned and facilitate productive discussions. With Git, 
+           GitHub, Appwrite, and Sentry in my toolbox, I ensure seamless version control and optimize backend functionality for peak 
+           application performance.  My focus lies on clean, modular code that prioritizes maintainability and scalability, ensuring long-term project success.
           </p>
 
         {/* Skills */}
@@ -69,8 +71,10 @@ const resume = () => {
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span> RESTAPI <br />
             <span className='px-2'></span> Ethical Hacking 
+            <span className='px-2'>|</span> Project Management
             <span className='px-2'>|</span> Node.JS
             <span className='px-2'>|</span> Vue.JS
+            <span className='px-2'>|</span> Python
             <span className='px-2'>|</span> Express
           </p>
           <p className='py-2'>
@@ -178,10 +182,7 @@ const resume = () => {
           <p className='py-1 italic'>Software Developer </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
-            </li>
-            <li>
-            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
+            Collaboratively designed and developed a feature-rich, responsive corporate website for a leading dairy services company. Leveraged expertise in JavaScript, HTML, and CSS to deliver a user-friendly platform that effectively communicates their values and services. Prioritized performance and scalability to ensure a seamless user experience across devices.
             </li>
             
           </ul>
@@ -212,10 +213,7 @@ const resume = () => {
           <p className='py-1 italic'>Software Developer</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            My involvement in the creation of a corporate website for a cutting-edge technology solutions provider reflects my commitment to excellence. By synergizing with cross-functional teams, I skillfully utilized JavaScript, HTML, and CSS to develop a responsive web application that showcases the company's prowess and offerings. 
-            </li>
-            <li>
-            My contributions encompassed the implementation of advanced functionalities, culminating in a website that encapsulates optimal performance, adaptability, and user-centric design.
+            Demonstrated commitment to high-quality software by crafting a responsive web application for a cutting-edge technology solutions provider. Collaborated effectively with cross-functional teams to utilize JavaScript, HTML, and CSS. Implemented advanced functionalities to create a user-centric experience that showcases the company's technical prowess and service offerings
             </li>
             
           </ul>
@@ -246,10 +244,7 @@ const resume = () => {
           <p className='py-1 italic'>Software Developer </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
-            </li>
-            <li>
-            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
+            Developed a user-friendly and responsive hotel website for Lux-Lounge, leveraging JavaScript, HTML, and CSS. Focused on creating a seamless booking experience and showcasing the hotel's amenities and luxurious accommodations. Optimized the website for mobile devices to ensure accessibility for potential guests on the go.
             </li>
             
           </ul>
@@ -280,10 +275,7 @@ const resume = () => {
           <p className='py-1 italic'>Software Developer </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
-            </li>
-            <li>
-            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
+            Designed and developed a sophisticated website for the Kimori Foundation in Kenya. Employed expertise in front-end technologies (JavaScript, HTML, CSS) to create a visually appealing and responsive platform. Focused on user experience to foster engagement with the foundation's mission.
             </li>
             
           </ul>
@@ -314,10 +306,38 @@ const resume = () => {
           <p className='py-1 italic'>Software Developer </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            In my capacity as a collaborative developer, I've contributed significantly to the realization of a sophisticated corporate website for a leading dairy services company. Through seamless teamwork, I harnessed my expertise in JavaScript, HTML, and CSS to craft a responsive website that embodies the company's values and services. 
+            Enhanced user experience and conversion rates for Kimmj Tours and Travel by developing a user-friendly and visually appealing website. Utilized JavaScript, HTML, and CSS to create a dynamic and interactive platform that streamlines the booking process and attracts potential customers.
             </li>
+            
+          </ul>
+        </div>
+
+       <div className='py-6'>
+        <p className='italic'>
+          <span className='font-bold'>STEM for Life Kenya, Kenya</span>
+        </p>
+        <a
+          href="https://stem-flk.vercel.app/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-block',
+            padding: '10px 20px',
+            backgroundColor: 'white',
+            border: '2px solid black',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            color: 'black',
+            transition: 'background-color 0.3s, color 0.3s',
+          }}
+        >
+          Visit their website
+        </a>
+
+          <p className='py-1 italic'>Software Developer </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            My role extended to the integration of innovative features, resulting in a high-performance platform that communicates professionalism, scalability, and an exceptional user experience.
+            Leveraged web development skills (JavaScript, HTML, CSS) to build a responsive and informative website for STEM for Life Kenya. Emphasized user experience and clarity to promote the organization's goals and initiatives.
             </li>
             
           </ul>
