@@ -64,14 +64,14 @@ const resume = () => {
             <span className='px-2'>|</span>Dart
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React.JS
-            <span className='px-2'>|</span>Next.JS  <br />
+            <span className='px-2'>|</span>Next.JS 
             <span className='px-2'></span>SQL
-            <span className='px-2'>|</span>Figma
+            <span className='px-2'>|</span>Figma <br />
             <span className='px-2'>|</span>Typescript
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> RESTAPI <br />
+            <span className='px-2'>|</span> RESTAPI 
             <span className='px-2'></span> Ethical Hacking 
-            <span className='px-2'>|</span> Project Management
+            <span className='px-2'>|</span> Project Management<br />
             <span className='px-2'>|</span> Node.JS
             <span className='px-2'>|</span> Vue.JS
             <span className='px-2'>|</span> Python
@@ -286,7 +286,7 @@ const resume = () => {
           <span className='font-bold'>Kimmj Tours ANd Travel, Kenya</span>
         </p>
         <a
-          href="https://travel-with-kimmj.vercel.app/"
+          href="https://kimmj.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           style={{
