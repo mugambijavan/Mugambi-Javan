@@ -29,64 +29,7 @@ const Contact = () => {
                   allowFullScreen
                   ></iframe>
               </div>
-              <div>
-                <h2 className='py-2'>Mugambi Javan Nyaga</h2>
-                <p>Software Engineer</p>
-              </div>
-              <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
-                <a
-              href='https://www.linkedin.com/in/javan-mugambi-2351a81b0/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
-              </div>
-            </a>
-
-            <a
-              href='https://github.com/mugambijavan'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
-              </div>
-            </a>
-
-            <a
-              href='mailto:mugambijavan@gmail.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
-              </div>
-            </a>
-
-            <a
-              href='https://twitter.com/mugambi_javan'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaTwitter />
-              </div>
-            </a>
-
-            <a
-              href='https://t.me/KamiriJavan'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaTelegram />
-              </div>
-            </a>
-
-                </div>
+             </div>
               </div>
             </div>
           </div>
