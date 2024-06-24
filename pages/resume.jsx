@@ -65,13 +65,13 @@ const resume = () => {
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React.JS
             <span className='px-2'>|</span>Next.JS 
-            <span className='px-2'></span>SQL
-            <span className='px-2'>|</span>Figma <br />
+            <span className='px-2'></span>SQL<br />
+            <span className='px-2'>|</span>Figma 
             <span className='px-2'>|</span>Typescript
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span> RESTAPI 
-            <span className='px-2'></span> Ethical Hacking 
-            <span className='px-2'>|</span> Project Management<br />
+            <span className='px-2'></span> Ethical Hacking <br />
+            <span className='px-2'>|</span> Project Management
             <span className='px-2'>|</span> Node.JS
             <span className='px-2'>|</span> Vue.JS
             <span className='px-2'>|</span> Python
