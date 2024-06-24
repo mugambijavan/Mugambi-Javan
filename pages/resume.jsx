@@ -125,6 +125,20 @@ const resume = () => {
             </li> 
           </ul>
         </div>
+       <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            LinkedIn learning
+            </span>
+            
+          </p>
+          <p className='py-1 italic'>Project Management </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Completed "Technical Product Management" and "Product Management First Steps" courses to strengthen my foundation in technical aspects, core principles, and product lifecycles. This equips me to contribute to innovative, user-centric product development.
+            </li> 
+          </ul>
+        </div>
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
