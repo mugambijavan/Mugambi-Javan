@@ -6,10 +6,10 @@ const Javoh = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <iframe
-        src='https://portfoliojavoh.vercel.app/'
+        src='https://mugambijavan.netlify.app/'
         title='Embedded Website'
         width='100%'
-        height='700'  // You can adjust the height as needed
+        height='800'  // You can adjust the height as needed
         frameBorder='0'
         allowFullScreen
       ></iframe>
