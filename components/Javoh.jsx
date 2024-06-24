@@ -13,7 +13,8 @@ const Javoh = () => {
         frameBorder='0'
         allowFullScreen
         ></iframe>
-     
+      </div>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <iframe
         src='https://portfoliojavoh.vercel.app/'
         title='Embedded Website'
@@ -22,7 +23,8 @@ const Javoh = () => {
         frameBorder='0'
         allowFullScreen
         ></iframe>
-     
+      </div>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <iframe
         src='https://projects-exhibit.vercel.app/'
         title='Embedded Website'
