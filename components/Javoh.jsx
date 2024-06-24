@@ -12,11 +12,8 @@ const Javoh = () => {
         height='800'  // You can adjust the height as needed
         frameBorder='0'
         allowFullScreen
-      ></iframe>
-      </div>
-    </div>
-<div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+        ></iframe>
+     
         <iframe
         src='https://portfoliojavoh.vercel.app/'
         title='Embedded Website'
@@ -24,11 +21,8 @@ const Javoh = () => {
         height='800'  // You can adjust the height as needed
         frameBorder='0'
         allowFullScreen
-      ></iframe>
-      </div>
-    </div>
-<div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+        ></iframe>
+     
         <iframe
         src='https://projects-exhibit.vercel.app/'
         title='Embedded Website'
@@ -36,7 +30,7 @@ const Javoh = () => {
         height='800'  // You can adjust the height as needed
         frameBorder='0'
         allowFullScreen
-      ></iframe>
+        ></iframe>
       </div>
     </div>
   );
