@@ -77,11 +77,6 @@ const resume = () => {
             <span className='px-2'>|</span> Python
             <span className='px-2'>|</span> Express
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Cloud Services</span> <br />
-            <span className='px-2'></span>Amazon Web Services Cloud
-            Practitioner <br /> Azure Cloud
-          </p>
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
