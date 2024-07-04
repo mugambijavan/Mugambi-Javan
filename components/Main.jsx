@@ -12,8 +12,8 @@ const Main = () => {
           <iframe
                   src='https://text-reveal-lemon.vercel.app/'
                   title='Embedded Website'
-                  width='100%'
-                  height='800'  // You can adjust the height as needed
+                  width='700'
+                  height='200'  // You can adjust the height as needed
                   frameBorder='0'
                   allowFullScreen
                   ></iframe>
