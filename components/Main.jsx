@@ -9,15 +9,14 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <h1 className='py-4 text-gray-700'>
-            <span className='text-[#4e9ffc]'> Mugambi Javan</span>
-          </h1>
-          <h1 className='py-2 text-gray-700'>Software Engineer</h1>
-          
-        
-            <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I'm not just a Dev
-            </p>
+          <iframe
+                  src='https://text-reveal-lemon.vercel.app/'
+                  title='Embedded Website'
+                  width='100%'
+                  height='800'  // You can adjust the height as needed
+                  frameBorder='0'
+                  allowFullScreen
+                  ></iframe>
           <div className='flex items-center justify-between max-w-[360px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/javan-mugambi-2351a81b0/'
