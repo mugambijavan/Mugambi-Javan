@@ -33,6 +33,14 @@ const Javoh = () => {
         frameBorder='0'
         allowFullScreen
         ></iframe>
+        <iframe
+                  src='https://text-reveal-lemon.vercel.app/'
+                  title='Embedded Website'
+                  width='100%'
+                  height='200'  // You can adjust the height as needed
+                  frameBorder='0'
+                  allowFullScreen
+                  ></iframe>
       </div>
     </div>
   );
