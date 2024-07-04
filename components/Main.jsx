@@ -9,6 +9,9 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
+          <h1 className='py-4 text-gray-700'>
+            <span className='text-[#4e9ffc]'> Mugambi Javan</span>
+          </h1>
           <iframe
                   src='https://text-reveal-lemon.vercel.app/'
                   title='Embedded Website'
