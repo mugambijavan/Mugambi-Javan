@@ -44,16 +44,7 @@ const resume = () => {
           
         </div>
           <p>
-              I'm a full-stack software engineer with expertise across the entire development lifecycle,
-           I excel in crafting high-quality applications from concept to completion.  My skillset spans front-end 
-           development with JavaScript, React.js, TypeScript, and Next.js, while for mobile apps I leverage Flutter and 
-           Dart. Back-end proficiency lies in the MERN stack (MongoDB, Express.js, React.js, Node.js), and I'm comfortable 
-           with Ruby and Ruby on Rails as well.  Beyond technical expertise, I'm a strong advocate for Agile methodologies, 
-           ensuring efficient workflows and clear communication to deliver projects on time. I excel at prioritizing tasks, 
-           creating realistic estimates, and managing project scope to meet client expectations.  Furthermore, I foster a collaborative
-           environment, leveraging strong communication skills to keep teams aligned and facilitate productive discussions. With Git, 
-           GitHub, Appwrite, and Sentry in my toolbox, I ensure seamless version control and optimize backend functionality for peak 
-           application performance.  My focus lies on clean, modular code that prioritizes maintainability and scalability, ensuring long-term project success.
+              As a dedicated full-stack software engineer in the early stages of my career, I am committed to continuousgrowth and professional development. I possess a solid foundation across the development lifecycle,excelling in the design and delivery of high-quality applications from concept to completion.My technical expertise spans front-end technologies, including JavaScript, React.js, TypeScript, and Next.js,as well as mobile app development with Flutter and Dart. On the back-end, I specialize in the MERN stack(MongoDB, Express.js, React.js, Node.js) and have experience with Ruby and Ruby on Rails.I am a strong advocate for Agile methodologies, which enables me to ensure efficient workflows, clearcommunication, and timely project delivery. My strengths include task prioritization, realistic estimation, andeffective project scope management to align with client expectations.Collaboration and teamwork are central to my approach; I leverage strong communication skills to fosterproductive discussions and align teams toward common goals. Utilizing tools such as Git, GitHub, Appwrite,and Sentry, I ensure seamless version control and backend optimization for optimal performance.I am passionate about writing clean, modular, and scalable code and am continuously seekingopportunities to enhance my skills, ensuring long-term success for every project I undertake.
           </p>
 
         {/* Skills */}
