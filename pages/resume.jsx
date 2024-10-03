@@ -224,7 +224,7 @@ const resume = () => {
           <span className='font-bold'>Lux-Lounge</span>
         </p>
         <a
-          href="https://luxlounge.co.ke.co.ke"
+          href="https://luxlounge.co.ke"
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -255,7 +255,7 @@ const resume = () => {
           <span className='font-bold'>Kimori Foundation, Kenya</span>
         </p>
         <a
-          href="https://kimorifoundation.co.ke"
+          href="https://kimorifoundation.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{
