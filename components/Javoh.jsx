@@ -9,7 +9,7 @@ const Javoh = () => {
         src='https://mugambijavan.netlify.app/'
         title='Embedded Website'
         width='100%'
-        height='100%'  // You can adjust the height as needed
+        height='900'  // You can adjust the height as needed
         frameBorder='0'
         allowFullScreen
         ></iframe>
