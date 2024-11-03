@@ -9,7 +9,7 @@ const Javoh = () => {
         src='https://projects-exhibit.vercel.app/'
         title='Embedded Website'
         width='100%'
-        height='800'  // You can adjust the height as needed
+        height='1000'  // You can adjust the height as needed
         frameBorder='0'
         allowFullScreen
         ></iframe>
@@ -19,7 +19,7 @@ const Javoh = () => {
         src='https://text-reveal-lemon.vercel.app/'
         title='Embedded Website'
         width='100%'
-        height='300'  // You can adjust the height as needed
+        height='100'  // You can adjust the height as needed
         frameBorder='0'
         allowFullScreen
         ></iframe>
