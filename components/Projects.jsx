@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import exquisitetastesImg from '../public/assets/projects/exquisite.png';
 import insightImg from '../public/assets/projects/insight.png'
-import myverseImg from '../public/assets/projects/7.png'
+import myverseImg from '../public/assets/projects/blog.png'
 import blogImg from '../public/assets/projects/blog.png'
 import ProjectItem from './ProjectItem';
 
