@@ -46,7 +46,6 @@ const Projects = () => {
             backgroundImg={blogImg}
             projectUrl='/blog'
             tech='Next JS'
-
           />
         </div>
       </div>
