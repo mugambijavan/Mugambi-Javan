@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import insightImg from '../public/assets/projects/9.png';
+import insightImg from '../public/assets/projects/insight.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

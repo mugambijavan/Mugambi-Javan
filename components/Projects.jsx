@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import exquisitetastesImg from '../public/assets/projects/13.png';
-import insightImg from '../public/assets/projects/9.png'
+import exquisitetastesImg from '../public/assets/projects/exquisite.png';
+import insightImg from '../public/assets/projects/insight.png'
 import myverseImg from '../public/assets/projects/7.png'
-import blogImg from '../public/assets/projects/10.png'
+import blogImg from '../public/assets/projects/blog.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {

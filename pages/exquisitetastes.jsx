@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import exquisitetastesImg from '../public/assets/projects/13.png';
+import exquisitetastesImg from '../public/assets/projects/exquisite.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
