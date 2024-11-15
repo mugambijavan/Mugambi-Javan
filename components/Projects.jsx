@@ -40,7 +40,6 @@ const Projects = () => {
             title='Insight WebApp'
             backgroundImg={insightImg}
             projectUrl='/insight'
-            tech='React JS'
 
           />
           
@@ -48,70 +47,60 @@ const Projects = () => {
             title='Blog Website'
             backgroundImg={blogImg}
             projectUrl='/blog'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='BhakitahTech Website'
             backgroundImg={techImg}
             projectUrl='/bhakitahtech'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='BhakitahTech-Milti Website'
             backgroundImg={siteImg}
             projectUrl='/multisite'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='Card Website'
             backgroundImg={cardImg}
             projectUrl='/card'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='Sticker Notes Website'
             backgroundImg={notesImg}
             projectUrl='/notes'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='DriveConnect Website'
             backgroundImg={driveImg}
             projectUrl='/driveconnect'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='Sirikwa Website'
             backgroundImg={sirikwaImg}
             projectUrl='/sirikwa'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='STEM Website'
             backgroundImg={stemImg}
-            projectUrl='/stem'
-            tech='Next JS'
+            projectUrl='/stemforlife'
           />
 
           <ProjectItem
             title='My Portfolio Website'
             backgroundImg={portfolioImg}
             projectUrl='/portfolio'
-            tech='Next JS'
           />
 
           <ProjectItem
             title='Quantum Ventures Website'
             backgroundImg={quantumImg}
             projectUrl='/quantum'
-            tech='Next JS'
           />
         </div>
       </div>

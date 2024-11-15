@@ -30,10 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/resume": [
+    "/blog": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/resume.js"
+      "static/chunks/pages/blog.js"
+    ],
+    "/exquisitetastes": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/exquisitetastes.js"
+    ],
+    "/insight": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/insight.js"
     ]
   },
   "ampFirstPages": []

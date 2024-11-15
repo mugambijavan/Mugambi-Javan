@@ -18,16 +18,14 @@ const blog = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Blog Website</h2>
-          <h3> JS, GraphCMS ,TypeScript </h3>
         </div>
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
+          <h2>Project Overview</h2>
           <p>
-            This website is a blog website
+          **BhakitahBlog** is a dynamic blog website that features a variety of content, including articles, insights, and personal stories. With a clean and engaging design, it offers readers an easy way to explore topics ranging from technology to lifestyle, fostering a community of knowledge-sharing and discussion.
           </p>
           <a
             href='https://bhakitah-blog.vercel.app/'
