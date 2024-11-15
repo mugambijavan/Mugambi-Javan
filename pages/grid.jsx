@@ -1,7 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-
-const Aboutt = () => {
+const grid = () => {
   return (
     <div className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
@@ -15,7 +14,7 @@ const Aboutt = () => {
         ></iframe>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Aboutt;
+export default grid
