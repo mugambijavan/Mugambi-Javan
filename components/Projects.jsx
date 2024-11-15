@@ -3,8 +3,17 @@ import Link from 'next/link';
 import React from 'react';
 import exquisitetastesImg from '../public/assets/projects/exquisite.png';
 import insightImg from '../public/assets/projects/insight.png'
-import myverseImg from '../public/assets/projects/blog.png'
 import blogImg from '../public/assets/projects/blog.png'
+import siteImg from '../public/assets/projects/bhakitahmultisite.png'
+import techImg from '../public/assets/projects/bhakitahtech.png'
+import cardImg from '../public/assets/projects/card.png'
+import driveImg from '../public/assets/projects/driveconnect.png'
+import notesImg from '../public/assets/projects/notes.png'
+import ovalImg from '../public/assets/projects/oval.png'
+import portfolioImg from '../public/assets/projects/portfolio.png'
+import quantumImg from '../public/assets/projects/quantum.png'
+import sirikwaImg from '../public/assets/projects/sirikwa.png'
+import stemImg from '../public/assets/projects/stem.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -34,17 +43,74 @@ const Projects = () => {
             tech='React JS'
 
           />
-          <ProjectItem
-            title='MyVerse WebApp'
-            backgroundImg={myverseImg}
-            projectUrl='/myverse'
-            tech='React JS'
-
-          />
+          
           <ProjectItem
             title='Blog Website'
             backgroundImg={blogImg}
             projectUrl='/blog'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='BhakitahTech Website'
+            backgroundImg={techImg}
+            projectUrl='/bhakitahtech'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='BhakitahTech-Milti Website'
+            backgroundImg={siteImg}
+            projectUrl='/multisite'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='Card Website'
+            backgroundImg={cardImg}
+            projectUrl='/card'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='Sticker Notes Website'
+            backgroundImg={notesImg}
+            projectUrl='/notes'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='DriveConnect Website'
+            backgroundImg={driveImg}
+            projectUrl='/driveconnect'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='Sirikwa Website'
+            backgroundImg={sirikwaImg}
+            projectUrl='/sirikwa'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='STEM Website'
+            backgroundImg={stemImg}
+            projectUrl='/stem'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='My Portfolio Website'
+            backgroundImg={portfolioImg}
+            projectUrl='/portfolio'
+            tech='Next JS'
+          />
+
+          <ProjectItem
+            title='Quantum Ventures Website'
+            backgroundImg={quantumImg}
+            projectUrl='/quantum'
             tech='Next JS'
           />
         </div>
