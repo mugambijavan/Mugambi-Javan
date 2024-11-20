@@ -14,6 +14,7 @@ import portfolioImg from '../public/assets/projects/portfolio.png'
 import quantumImg from '../public/assets/projects/quantum.png'
 import sirikwaImg from '../public/assets/projects/sirikwa.png'
 import stemImg from '../public/assets/projects/stem.png'
+import realImg from '../public/assets/projects/realestate.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -101,6 +102,12 @@ const Projects = () => {
             title='Quantum Ventures Website'
             backgroundImg={quantumImg}
             projectUrl='/quantum'
+          />
+
+          <ProjectItem
+            title='RealEstate Website'
+            backgroundImg={realImg}
+            projectUrl='/realestate'
           />
         </div>
       </div>
