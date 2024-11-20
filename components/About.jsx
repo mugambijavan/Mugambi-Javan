@@ -12,11 +12,8 @@ const About = () => {
             <div className='p-4'>
             <h2 className='py-4' style={{ fontSize: '17px' }}>My objective is to create products and services that consistently satisfy customers.</h2>
           <p className='py-2 text-gray-600'>
-            Software Engineer with a passion for building elegant and user-centric experiences. I bring a diverse skillset to the table, proficient in both front-end 
-            (HTML, CSS, JavaScript frameworks like React & Next.js) and back-end development (Ruby on Rails, SQL). Additionally, I possess strong project management skills,
-            adept at planning, organizing, and leading software development projects to successful completion. Version control with Git and a collaborative workflow using
-            GitHub keep my projects organized and maintainable. Beyond technical expertise, I value clear communication and exceeding client expectations through a commitment 
-            to high-quality software and continuous learning. I'm eager to contribute my skills and enthusiasm to your team, fostering growth and success.
+          I am a Software Engineer passionate about creating user-focused, efficient, and innovative solutions. My expertise spans front-end development (HTML, CSS, React, Next.js) and back-end systems (Ruby on Rails, SQL), coupled with strong project management skills for delivering successful software projects.  
+          With certification in AI, I specialize in machine learning, natural language processing, and computer vision, leveraging these skills to build impactful, intelligent solutions. Proficient in Git and GitHub, I ensure streamlined, collaborative workflows. I value clear communication, continuous learning, and exceeding expectations, always striving to deliver high-quality results that drive growth and success.
           </p>
               <iframe
               src='https://mugambijavan.github.io/badge/'

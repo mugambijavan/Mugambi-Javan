@@ -44,8 +44,13 @@ const resume = () => {
           
         </div>
           <p>
-              As a dedicated full-stack software engineer in the early stages of my career, I am committed to continuousgrowth and professional development. I possess a solid foundation across the development lifecycle,excelling in the design and delivery of high-quality applications from concept to completion.My technical expertise spans front-end technologies, including JavaScript, React.js, TypeScript, and Next.js,as well as mobile app development with Flutter and Dart. On the back-end, I specialize in the MERN stack(MongoDB, Express.js, React.js, Node.js) and have experience with Ruby and Ruby on Rails.I am a strong advocate for Agile methodologies, which enables me to ensure efficient workflows, clearcommunication, and timely project delivery. My strengths include task prioritization, realistic estimation, andeffective project scope management to align with client expectations.Collaboration and teamwork are central to my approach; I leverage strong communication skills to fosterproductive discussions and align teams toward common goals. Utilizing tools such as Git, GitHub, Appwrite,and Sentry, I ensure seamless version control and backend optimization for optimal performance.I am passionate about writing clean, modular, and scalable code and am continuously seekingopportunities to enhance my skills, ensuring long-term success for every project I undertake.
-          </p>
+          As a dedicated full-stack software engineer early in my career, I am committed to continuous growth and professional development. I bring a strong foundation in the software development lifecycle, with proven expertise in designing and delivering high-quality applications from concept to deployment.
+
+          My technical skill set spans front-end technologies like JavaScript, React.js, TypeScript, and Next.js, alongside mobile app development using Flutter and Dart. On the back-end, I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have experience with Ruby and Ruby on Rails.
+
+          A proponent of Agile methodologies, I ensure efficient workflows, clear communication, and timely project delivery. My strengths include task prioritization, realistic estimation, and effective scope management to align with client goals and expectations. Collaboration and teamwork are central to my process, leveraging strong communication skills to align teams toward shared objectives.
+
+          I utilize tools like Git, GitHub, Appwrite, and Sentry to maintain version control, optimize back-end systems, and ensure seamless project execution. Passionate about writing clean, modular, and scalable code, I continuously seek opportunities to enhance my skills and deliver long-term success for every project I undertake.          </p>
 
         {/* Skills */}
         <div className='text-center py-4'>
@@ -67,6 +72,12 @@ const resume = () => {
             <span className='px-2'>|</span> Vue.JS
             <span className='px-2'>|</span> Python
             <span className='px-2'>|</span> Express
+            <span className='px-2'></span> Agile Development <br />
+            <span className='px-2'>|</span> Jira 
+            <span className='px-2'>|</span> Scrum
+            <span className='px-2'>|</span> AI
+
+
           </p>
         </div>
 
@@ -114,14 +125,29 @@ const resume = () => {
        <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            LinkedIn learning
+            LinkedIn learning - Atlassian University
             </span>
             
           </p>
-          <p className='py-1 italic'>Project Management </p>
+          <p className='py-1 italic'>Agile Development and Jira Software
+          </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            Completed "Technical Product Management" and "Product Management First Steps" courses to strengthen my foundation in technical aspects, core principles, and product lifecycles. This equips me to contribute to innovative, user-centric product development.
+            I completed certifications in Agile Development and mastering Jira Software at Atlassian University. These courses provided advanced knowledge of Agile workflows, project tracking, and collaborative tools, further strengthening my project management and team collaboration skills.            </li> 
+          </ul>
+        </div>
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Huawei Certification (HCIA)
+            </span>
+            
+          </p>
+          <p className='py-1 italic'>Artificial Intelligence
+          </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            I earned the Huawei AI Certification, demonstrating my expertise in machine learning, natural language processing, computer vision, and deploying AI-driven solutions. This certification highlights my ability to harness AI technologies to create impactful and intelligent solutions for diverse applications.
             </li> 
           </ul>
         </div>
