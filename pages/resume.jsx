@@ -76,6 +76,7 @@ const resume = () => {
             <span className='px-2'>|</span> Jira 
             <span className='px-2'>|</span> Scrum
             <span className='px-2'>|</span> AI
+            <span className='px-2'>|</span> Appwrite
 
 
           </p>
