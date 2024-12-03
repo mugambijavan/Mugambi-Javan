@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 import exquisitetastesImg from '../public/assets/projects/exquisite.png';
 import insightImg from '../public/assets/projects/insight.png'
-import blogImg from '../public/assets/projects/blog.png'
 import siteImg from '../public/assets/projects/bhakitahmultisite.png'
 import techImg from '../public/assets/projects/bhakitahtech.png'
 import cardImg from '../public/assets/projects/card.png'
@@ -44,11 +43,7 @@ const Projects = () => {
 
           />
           
-          <ProjectItem
-            title='Blog Website'
-            backgroundImg={blogImg}
-            projectUrl='/blog'
-          />
+          
 
           <ProjectItem
             title='BhakitahTech Website'
