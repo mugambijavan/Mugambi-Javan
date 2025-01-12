@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import twitchImg from '../public/assets/projects/blog.png';
+import blogImg from '../public/assets/projects/blog.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,7 +13,7 @@ const blog = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={twitchImg}
+          src={blogImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
