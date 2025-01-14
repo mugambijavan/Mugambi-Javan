@@ -112,10 +112,10 @@ const Projects = () => {
       <footer className="mt-16 bg-white text-black py-8">
                 <div className="max-w-[940px] mx-auto text-center">
                   <div className="flex justify-center space-x-4 mt-4">
-                    <a href="https://github.com" className="text-black">
+                    <a href="https://github.com/mugambijavan" className="text-black" target='_blank'>
                       <FaGithub size={30} />
                     </a>
-                    <a href="https://linkedin.com" className="text-black">
+                    <a href="https://www.linkedin.com/in/javan-mugambi-2351a81b0/" className="text-black target='_blank'">
                       <FaLinkedinIn size={30} />
                     </a>
                   </div>
