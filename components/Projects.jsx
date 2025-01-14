@@ -13,8 +13,12 @@ import portfolioImg from '../public/assets/projects/portfolio.png'
 import quantumImg from '../public/assets/projects/quantum.png'
 import sirikwaImg from '../public/assets/projects/sirikwa.png'
 import stemImg from '../public/assets/projects/stem.png'
+import airtimeImg from '../public/assets/projects/airtimesolutions.jpg'
+import opensourceImg from '../public/assets/projects/opensource.jpg'
 import realImg from '../public/assets/projects/realestate.png'
 import ProjectItem from './ProjectItem';
+import { FaGithub,  FaLinkedinIn } from 'react-icons/fa';
+
 
 const Projects = () => {
   return (
@@ -40,65 +44,64 @@ const Projects = () => {
             title='Insight WebApp'
             backgroundImg={insightImg}
             projectUrl='/insight'
-
-          />
-          
-          
-
+          />         
           <ProjectItem
             title='BhakitahTech Website'
             backgroundImg={techImg}
             projectUrl='/bhakitahtech'
           />
-
+          <ProjectItem
+            title='Exquisite Tastes'
+            backgroundImg={airtimeImg}
+            projectUrl='/airtimesolutions'
+            tech='React JS'
+          />
+          <ProjectItem
+            title='Open Source'
+            backgroundImg={opensourceImg}
+            projectUrl='/opensourceastro'
+            tech='Astro'
+          />
           <ProjectItem
             title='BhakitahTech-Milti Website'
             backgroundImg={siteImg}
             projectUrl='/multisite'
           />
-
           <ProjectItem
             title='Card Website'
             backgroundImg={cardImg}
             projectUrl='/card'
           />
-
           <ProjectItem
             title='Sticker Notes Website'
             backgroundImg={notesImg}
             projectUrl='/notes'
           />
-
           <ProjectItem
             title='DriveConnect Website'
             backgroundImg={driveImg}
             projectUrl='/driveconnect'
           />
-
           <ProjectItem
             title='Sirikwa Website'
             backgroundImg={sirikwaImg}
             projectUrl='/sirikwa'
           />
-
           <ProjectItem
             title='STEM Website'
             backgroundImg={stemImg}
             projectUrl='/stemforlife'
           />
-
           <ProjectItem
             title='My Portfolio Website'
             backgroundImg={portfolioImg}
             projectUrl='/portfolio'
           />
-
           <ProjectItem
             title='Quantum Ventures Website'
             backgroundImg={quantumImg}
             projectUrl='/quantum'
           />
-
           <ProjectItem
             title='RealEstate Website'
             backgroundImg={realImg}
@@ -106,6 +109,18 @@ const Projects = () => {
           />
         </div>
       </div>
+      <footer className="mt-16 bg-white text-black py-8">
+                <div className="max-w-[940px] mx-auto text-center">
+                  <div className="flex justify-center space-x-4 mt-4">
+                    <a href="https://github.com" className="text-black">
+                      <FaGithub size={30} />
+                    </a>
+                    <a href="https://linkedin.com" className="text-black">
+                      <FaLinkedinIn size={30} />
+                    </a>
+                  </div>
+                </div>
+              </footer>
     </div>
   );
 };

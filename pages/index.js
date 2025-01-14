@@ -3,7 +3,6 @@ import About from '../components/About'
 import Main from '../components/Main'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
-import Javoh from '../components/Javoh'
 
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
     <About />
     <Skills />
     <Projects />
-    <Javoh />
-    </div>
+\    </div>
   )
 }
