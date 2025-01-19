@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import animatedwebsiteImg from '../public/assets/projects/animatedwebsite.png';
 import exquisitetastesImg from '../public/assets/projects/exquisite.png';
 import insightImg from '../public/assets/projects/insight.png'
 import siteImg from '../public/assets/projects/bhakitahmultisite.png'
@@ -13,7 +14,7 @@ import portfolioImg from '../public/assets/projects/portfolio.png'
 import quantumImg from '../public/assets/projects/quantum.png'
 import sirikwaImg from '../public/assets/projects/sirikwa.png'
 import stemImg from '../public/assets/projects/stem.png'
-import airtimeImg from '../public/assets/projects/airtimesolutions.jpg'
+import airtimeImg from '../public/assets/projects/airtimesolutions.png'
 import opensourceImg from '../public/assets/projects/opensource.jpg'
 import realImg from '../public/assets/projects/realestate.png'
 import ProjectItem from './ProjectItem';
@@ -51,7 +52,7 @@ const Projects = () => {
             projectUrl='/bhakitahtech'
           />
           <ProjectItem
-            title='Exquisite Tastes'
+            title='Airtime Solutions'
             backgroundImg={airtimeImg}
             projectUrl='/airtimesolutions'
             tech='React JS'
@@ -106,6 +107,11 @@ const Projects = () => {
             title='RealEstate Website'
             backgroundImg={realImg}
             projectUrl='/realestate'
+          />
+          <ProjectItem
+            title='Animated Website'
+            backgroundImg={animatedwebsiteImg}
+            projectUrl='/animatedwebsite'
           />
         </div>
       </div>

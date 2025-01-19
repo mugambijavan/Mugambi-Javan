@@ -1,5 +1,5 @@
 import React from 'react'
-import airtimeImg from '../public/assets/projects/airtimesolutions.jpg';
+import airtimeImg from '../public/assets/projects/airtimesolutions.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Image from 'next/image';
