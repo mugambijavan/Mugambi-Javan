@@ -5,7 +5,7 @@ const grid = () => {
     <div className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <iframe
-        src='https://new-portfolio-beryl-phi.vercel.app/'
+        src='https://mugambijavan.netlify.app/'
         title='Embedded Website'
         width='100%'
         height='900'  // You can adjust the height as needed
