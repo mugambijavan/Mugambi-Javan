@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
 import animatedwebsiteImg from '../public/assets/projects/animatedwebsite.png';
 import exquisitetastesImg from '../public/assets/projects/exquisite.png';
 import insightImg from '../public/assets/projects/insight.png'
@@ -18,7 +19,7 @@ import airtimeImg from '../public/assets/projects/airtimesolutions.png'
 import opensourceImg from '../public/assets/projects/opensource.jpg'
 import realImg from '../public/assets/projects/realestate.png'
 import ProjectItem from './ProjectItem';
-import { FaGithub,  FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub,  FaLinkedinIn, FaTelegram, FaTwitter, FaWhatsapp  } from 'react-icons/fa';
 
 
 const Projects = () => {
@@ -118,13 +119,59 @@ const Projects = () => {
       <footer className="mt-16 bg-white text-black py-8">
         <div className="max-w-[940px] mx-auto text-center">
           <div className="flex justify-center space-x-4 mt-4">
-            <a href="https://github.com/mugambijavan" className="text-black" target='_blank'>
-              <FaGithub size={30} />
-            </a>
-            <a href="https://www.linkedin.com/in/javan-mugambi-2351a81b0/" className="text-black" target='_blank'>
-              <FaLinkedinIn size={30} />
-            </a>
+          <a
+                href='https://www.linkedin.com/in/javan-mugambi-2351a81b0/'
+                target='_blank'
+                rel='noreferrer'
+                className='text-black'
+              >
+                <FaLinkedinIn size={30} />
+              </a>
+              <a
+                href='https://github.com/mugambijavan'
+                target='_blank'
+                rel='noreferrer'
+                className='text-black'
+              >
+                <FaGithub size={30} />
+              </a>
+              <a
+                href='https://wa.me/+254727761646'
+                target='_blank'
+                rel='noreferrer'
+                className='text-black'
+              >
+                <FaWhatsapp size={30} />
+              </a>
+              <a
+                href='mailto:mugambijavan@gmail.com'
+                target='_blank'
+                rel='noreferrer'
+                className='text-black'
+              >
+                <AiOutlineMail size={30} />
+              </a>
+              <a
+                href='https://twitter.com/mugambi_javan'
+                target='_blank'
+                rel='noreferrer'
+                className='text-black'
+              >
+                <FaTwitter size={30} />
+              </a>
+              <a
+                href='https://t.me/KamiriJavan'
+                target='_blank'
+                rel='noreferrer'
+                className='text-black'
+              >
+                <FaTelegram size={30} />
+              </a>
+
           </div>
+          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+            Mugambi Javan
+          </p>
         </div>
       </footer>
     </div>

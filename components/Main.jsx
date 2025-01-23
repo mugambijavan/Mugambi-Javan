@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTelegram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 const Main = () => {
   return (
@@ -33,6 +33,16 @@ const Main = () => {
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
+              </div>
+            </a>
+
+            <a
+              href='https://wa.me/+254727761646'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaWhatsapp />
               </div>
             </a>
 
