@@ -18,6 +18,7 @@ import stemImg from '../public/assets/projects/stem.png'
 import airtimeImg from '../public/assets/projects/airtimesolutions.png'
 import opensourceImg from '../public/assets/projects/opensource.jpg'
 import realImg from '../public/assets/projects/realestate.png'
+import simplecompanyImg from '../public/assets/projects/simplecompany.png'
 import ProjectItem from './ProjectItem';
 import { FaGithub,  FaLinkedinIn, FaTelegram, FaTwitter, FaWhatsapp  } from 'react-icons/fa';
 
@@ -40,7 +41,6 @@ const Projects = () => {
             title='Exquisite Tastes'
             backgroundImg={exquisitetastesImg}
             projectUrl='/exquisitetastes'
-            tech='React JS'
           />
           <ProjectItem
             title='Insight WebApp'
@@ -56,13 +56,11 @@ const Projects = () => {
             title='Airtime Solutions'
             backgroundImg={airtimeImg}
             projectUrl='/airtimesolutions'
-            tech='React JS'
           />
           <ProjectItem
             title='Open Source'
             backgroundImg={opensourceImg}
             projectUrl='/opensourceastro'
-            tech='Astro'
           />
           <ProjectItem
             title='BhakitahTech-Milti Website'
@@ -113,6 +111,11 @@ const Projects = () => {
             title='Animated Website'
             backgroundImg={animatedwebsiteImg}
             projectUrl='/animatedwebsite'
+          />
+          <ProjectItem
+            title='Simple company Website'
+            backgroundImg={simplecompanyImg}
+            projectUrl='/simplecompany'
           />
         </div>
       </div>
