@@ -18,7 +18,7 @@ import stemImg from '../public/assets/projects/stem.png'
 import airtimeImg from '../public/assets/projects/airtimesolutions.png'
 import opensourceImg from '../public/assets/projects/opensource.jpg'
 import realImg from '../public/assets/projects/realestate.png'
-import simplecompanyImg from '../public/assets/projects/simplecompany.png'
+import simplewebImg from '../public/assets/projects/simpleweb.png'
 import ProjectItem from './ProjectItem';
 import { FaGithub,  FaLinkedinIn, FaTelegram, FaTwitter, FaWhatsapp  } from 'react-icons/fa';
 
@@ -114,8 +114,8 @@ const Projects = () => {
           />
           <ProjectItem
             title='Simple company Website'
-            backgroundImg={simplecompanyImg}
-            projectUrl='/simplecompany'
+            backgroundImg={simplewebImg}
+            projectUrl='/simpleweb'
           />
         </div>
       </div>
