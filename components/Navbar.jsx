@@ -5,12 +5,12 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [navBg, setNavBg] = useState('#ffffff');
   const [linkColor, setLinkColor] = useState('#1f2937');
 
   const handleNav = () => {
@@ -43,8 +43,8 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='100%'
-              height='100%'
+              width='70%'
+              height='70%'
               className='cursor-pointer'
             />
           </a>
@@ -92,7 +92,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ffffff] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -102,8 +102,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='100%'
-                    height='100%'
+                    width='70%'
+                    height='70%'
                     alt='/'
                   />
                 </a>
