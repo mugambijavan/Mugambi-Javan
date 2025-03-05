@@ -45,13 +45,11 @@ const resume = () => {
           
         </div>
           <p>
-          As a dedicated full-stack software engineer early in my career, I am committed to continuous growth and professional development. I bring a strong foundation in the software development lifecycle, with proven expertise in designing and delivering high-quality applications from concept to deployment.
-
-          My technical skill set spans front-end technologies like JavaScript, React.js, TypeScript, and Next.js, alongside mobile app development using Flutter and Dart. On the back-end, I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have experience with Ruby and Ruby on Rails.
-
+          As a software engineer early in my career, I am committed to continuous growth and professional development. I bring a strong foundation in the software development lifecycle, with proven expertise in designing and delivering high-quality applications from concept to deployment.
+          My technical skill set spans front-end technologies like JavaScript, React.js, TypeScript, and Next.js, alongside mobile app development using Flutter, Dart, and React Native for cross-platform applications on Android and iOS. On the back-end, I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have experience with Ruby and Ruby on Rails.
           A proponent of Agile methodologies, I ensure efficient workflows, clear communication, and timely project delivery. My strengths include task prioritization, realistic estimation, and effective scope management to align with client goals and expectations. Collaboration and teamwork are central to my process, leveraging strong communication skills to align teams toward shared objectives.
-
-          I utilize tools like Git, GitHub, Appwrite, and Sentry to maintain version control, optimize back-end systems, and ensure seamless project execution. Passionate about writing clean, modular, and scalable code, I continuously seek opportunities to enhance my skills and deliver long-term success for every project I undertake.          </p>
+          I utilize tools like Git, GitHub, Appwrite, and Sentry to maintain version control, optimize back-end systems, and ensure seamless project execution. Passionate about writing clean, modular, and scalable code, I continuously seek opportunities to enhance my skills and deliver long-term success for every project I undertake.    
+          </p>
 
         {/* Skills */}
         <div className='text-center py-4'>
@@ -66,6 +64,7 @@ const resume = () => {
             <span className='px-2'>|</span>Figma 
             <span className='px-2'>|</span>Typescript
             <span className='px-2'>|</span>Tailwind
+            <span className='px-2'>|</span>React-Native
             <span className='px-2'>|</span> RESTAPI 
             <span className='px-2'></span> Ethical Hacking <br />
             <span className='px-2'>|</span> Project Management

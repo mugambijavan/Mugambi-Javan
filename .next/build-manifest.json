@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/grid": [
+    "/doctorconnect": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/grid.js"
+      "static/chunks/pages/doctorconnect.js"
     ],
     "/resume": [
       "static/chunks/webpack.js",

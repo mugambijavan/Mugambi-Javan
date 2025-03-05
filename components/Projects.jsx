@@ -19,6 +19,7 @@ import airtimeImg from '../public/assets/projects/airtimesolutions.png'
 import opensourceImg from '../public/assets/projects/opensource.jpg'
 import realImg from '../public/assets/projects/realestate.png'
 import simplewebImg from '../public/assets/projects/simpleweb.png'
+import doctorconnectImg from '../public/assets/projects/doctorconnect.png';
 import ProjectItem from './ProjectItem';
 import { FaGithub,  FaLinkedinIn, FaTelegram, FaTwitter, FaWhatsapp  } from 'react-icons/fa';
 
@@ -86,6 +87,11 @@ const Projects = () => {
             title='Sirikwa Website'
             backgroundImg={sirikwaImg}
             projectUrl='/sirikwa'
+          />
+          <ProjectItem
+            title='Doctor Connect Website'
+            backgroundImg={doctorconnectImg}
+            projectUrl='/doctorconnect'
           />
           <ProjectItem
             title='STEM Website'
