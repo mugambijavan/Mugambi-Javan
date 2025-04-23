@@ -1,85 +1,117 @@
+import { motion } from 'framer-motion';
 import Link from 'next/link';
-import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn, FaTelegram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 
 const Main = () => {
+  const socialLinks = [
+    { 
+      icon: <FaLinkedinIn />, 
+      href: 'https://linkedin.com/in/javan-mugambi-2351a81b0/',
+      color: 'hover:text-[#0077b5]'
+    },
+    { 
+      icon: <FaGithub />, 
+      href: 'https://github.com/mugambijavan',
+      color: 'hover:text-[#333]'
+    },
+    { 
+      icon: <FaWhatsapp />, 
+      href: 'https://wa.me/+254727761646',
+      color: 'hover:text-[#25D366]'
+    },
+    { 
+      icon: <AiOutlineMail />, 
+      href: 'mailto:mugambijavan@gmail.com',
+      color: 'hover:text-[#EA4335]'
+    },
+    { 
+      icon: <FaTwitter />, 
+      href: 'https://twitter.com/mugambi_javan',
+      color: 'hover:text-[#1DA1F2]'
+    },
+    { 
+      icon: <FaTelegram />, 
+      href: 'https://t.me/KamiriJavan',
+      color: 'hover:text-[#0088cc]'
+    },
+  ];
+
   return (
-    <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-        <div>
-          <h1 className='py-4 text-gray-700'>
-            <span className='text-[#4e9ffc]'> Mugambi Javan</span>
-          </h1>
-          <h1 className='py-2 text-gray-700'>Software Engineer</h1>
-            <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I'm not just a Dev
-            </p>
-          <div className='flex items-center justify-between max-w-[360px] m-auto py-4'>
-            <a
-              href='https://www.linkedin.com/in/javan-mugambi-2351a81b0/'
-              target='_blank'
-              rel='noreferrer'
+    <section id='home' className='min-h-screen flex items-center justify-center bg-gradient-to-br from-[#f7f9fb] to-[#eef2f6]'>
+      <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className='text-center space-y-12'
+        >
+          <div className='space-y-6'>
+            <motion.h2 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className='text-2xl sm:text-3xl font-light text-gray-500'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
-              </div>
-            </a>
-
-            <a
-              href='https://github.com/mugambijavan'
-              target='_blank'
-              rel='noreferrer'
+              Hello, I'm
+            </motion.h2>
+            <motion.h1
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className='text-4xl sm:text-6xl font-bold text-gray-800'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
-              </div>
-            </a>
-
-            <a
-              href='https://wa.me/+254727761646'
-              target='_blank'
-              rel='noreferrer'
+              <span className='text-[#4e9ffc]'>Mugambi Javan</span>
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className='text-xl sm:text-2xl text-gray-600 font-medium'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaWhatsapp />
-              </div>
-            </a>
-
-            <a
-              href='mailto:mugambijavan@gmail.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
-              </div>
-            </a>
-
-            <a
-              href='https://twitter.com/mugambi_javan'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaTwitter />
-              </div>
-            </a>
-
-            <a
-              href='https://t.me/KamiriJavan'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaTelegram />
-              </div>
-            </a>
-            
+              Full Stack Software Engineer
+            </motion.p>
           </div>
-        </div>
+
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className='max-w-2xl mx-auto'
+          >
+            <p className='text-lg text-gray-500 leading-relaxed'>
+              Crafting robust digital solutions through innovative code and user-centric design.
+              Specializing in modern web technologies to build scalable and efficient applications.
+            </p>
+          </motion.div>
+
+          <motion.div 
+            className='flex flex-wrap justify-center gap-6'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4 }}
+          >
+            {socialLinks.map((link, index) => (
+              <motion.a
+                key={index}
+                href={link.href}
+                target='_blank'
+                rel='noopener noreferrer'
+                whileHover={{ scale: 1.15 }}
+                whileTap={{ scale: 0.95 }}
+                className={`p-4 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-300 ${link.color}`}
+              >
+                <span className='text-2xl'>{link.icon}</span>
+              </motion.a>
+            ))}
+          </motion.div>
+
+          <motion.div
+            className='flex flex-col sm:flex-row justify-center gap-6'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6 }}
+          >
+          </motion.div>
+        </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import React from 'react';
 import Html from '../public/assets/skills/html.png';
@@ -8,7 +9,7 @@ import ReactnativeImg from '../public/assets/skills/react-native.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Aws from '../public/assets/skills/aws.png';
-import NextJS from '../public/assets/skills/nextjs.png'
+import NextJS from '../public/assets/skills/nextjs.png';
 import Node from '../public/assets/skills/node.png';
 import Typescript from '../public/assets/skills/typescript.png';
 import Angular from '../public/assets/skills/angular.png';
@@ -16,172 +17,95 @@ import Flutter from '../public/assets/skills/flutter.png';
 import Dart from '../public/assets/skills/dart.png';
 import Python from '../public/assets/skills/python.png';
 import Jira from '../public/assets/skills/jira.png';
-import Appwrite from '../public/assets/skills/appwrite.png'
-
+import Appwrite from '../public/assets/skills/appwrite.png';
 
 const Skills = () => {
+  const skills = [
+    { name: 'HTML', icon: Html },
+    { name: 'CSS', icon: Css },
+    { name: 'JavaScript', icon: Javascript },
+    { name: 'TypeScript', icon: Typescript },
+    { name: 'React', icon: ReactImg },
+    { name: 'React Native', icon: ReactnativeImg },
+    { name: 'Next.js', icon: NextJS },
+    { name: 'Angular', icon: Angular },
+    { name: 'Tailwind', icon: Tailwind },
+    { name: 'Node.js', icon: Node },
+    { name: 'Python', icon: Python },
+    { name: 'Flutter', icon: Flutter },
+    { name: 'Dart', icon: Dart },
+    { name: 'AWS', icon: Aws },
+    { name: 'GitHub', icon: Github },
+    { name: 'Jira', icon: Jira },
+    { name: 'Appwrite', icon: Appwrite },
+  ];
+
+  // Duplicate the array for seamless looping
+  const duplicatedSkills = [...skills, ...skills];
+
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-          Tech-Stack
-        </p>
-        <h2 className='py-4' style={{ fontSize: '17px' }}>It's all about progress, not perfection.</h2>
-        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Html} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Dart} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Dart</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={ReactnativeImg} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>React Native</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Javascript} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>JavaScript</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={ReactImg} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Tailwind} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Tailwind</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Aws} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Aws</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Github} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={NextJS} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Next</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Node} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Node</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Typescript} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Typescript</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Python} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Python</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Flutter} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Flutter</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Jira} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Jira</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Appwrite} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Appwrite</h3>
-              </div>
-            </div>
-          </div>
+    <section id='skills' className='w-full py-20 bg-gray-50'>
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className='text-center mb-16'
+        >
+          <p className='text-lg font-semibold text-[#5651e5] tracking-widest uppercase mb-3'>
+            Tech Stack
+          </p>
+          <h2 className='text-4xl font-bold text-gray-900 mb-4'>
+            My Technical Expertise
+          </h2>
+          <p className='text-xl text-gray-600 max-w-2xl mx-auto'>
+            Tools and technologies I use to build exceptional digital experiences
+          </p>
+        </motion.div>
+
+        {/* Marquee Container */}
+        <div className='overflow-hidden py-8 relative'>
+          {/* Fade effect edges */}
+          <div className='absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-gray-50 to-transparent z-20' />
+          <div className='absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-gray-50 to-transparent z-20' />
+
+          <motion.div
+            className='flex'
+            animate={{
+              x: ['0%', '-100%'],
+            }}
+            transition={{
+              duration: 20,
+              ease: 'linear',
+              repeat: Infinity,
+            }}
+          >
+            {duplicatedSkills.map((skill, index) => (
+              <motion.div
+                key={`${skill.name}-${index}`}
+                className='flex-shrink-0 px-4'
+                whileHover={{ y: -5, scale: 1.05 }}
+                transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+              >
+                <div className='bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center w-[200px]'>
+                  <div className='relative w-16 h-16 mb-4'>
+                    <Image
+                      src={skill.icon}
+                      alt={skill.name}
+                      layout='fill'
+                      objectFit='contain'
+                      className='filter grayscale hover:grayscale-0 transition-all duration-300'
+                    />
+                  </div>
+                  <h3 className='text-lg font-medium text-gray-800'>{skill.name}</h3>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
-        
       </div>
-    </div>
+    </section>
   );
 };
 
