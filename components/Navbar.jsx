@@ -1,170 +1,188 @@
+// components/Navbar.jsx
+import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { useEffect, useState } from 'react';
+import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [navOpen, setNavOpen] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ffffff');
-  const [linkColor, setLinkColor] = useState('#1f2937');
 
-  const handleNav = () => {
-    setNav(!nav);
-  };
-  
+  const handleNav = () => setNavOpen(!navOpen);
 
   useEffect(() => {
-    const handleShadow = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
-      }
+    const handleScroll = () => {
+      setShadow(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleShadow);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const navItems = [
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/#about' },
+    { name: 'Tech-Stack', href: '/#skills' },
+    { name: 'Projects', href: '/#projects' },
+    { name: 'Resume', href: '/resume' },
+    { name: 'Grid', href: '/grid' },
+  ];
+
+  const socialLinks = [
+    {
+      icon: <FaLinkedinIn />,
+      href: 'https://linkedin.com/in/javan-mugambi-2351a81b0/',
+      gradient: 'from-[#0077b5] to-[#00a0dc]',
+    },
+    {
+      icon: <FaGithub />,
+      href: 'https://github.com/mugambijavan',
+      gradient: 'from-[#333] to-[#6e5494]',
+    },
+    {
+      icon: <FaWhatsapp />,
+      href: 'https://wa.me/+254727761646',
+      gradient: 'from-[#25D366] to-[#128C7E]',
+    },
+    {
+      icon: <AiOutlineMail />,
+      href: 'mailto:mugambijavan@gmail.com',
+      gradient: 'from-[#EA4335] to-[#BB001B]',
+    },
+  ];
+
+  const navVariant = {
+    hidden: { x: '-100%', opacity: 0 },
+    visible: {
+      x: 0,
+      opacity: 1,
+      transition: { duration: 0.4, ease: 'easeInOut', staggerChildren: 0.1 },
+    },
+    exit: { x: '-100%', opacity: 0, transition: { duration: 0.3 } },
+  };
+
+  const itemVariant = {
+    hidden: { opacity: 0, y: 10 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+  };
+
   return (
-    <div
-      style={{ backgroundColor: `${navBg}` }}
-      className={
-        shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
-      }
+    <motion.nav
+      initial={{ y: -80, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className={`fixed w-full z-50 ${shadow ? 'bg-gray-900/90 backdrop-blur-lg shadow-xl' : 'bg-transparent'} transition-all duration-500`}
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Link href='/'>
-          <div className='group relative cursor-pointer'>
-            <span className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-500 group-hover:bg-gradient-to-l'>
-            改善
-            </span>
-            <div className='absolute -bottom-1 left-0 w-0 h-1 bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-300 group-hover:w-full'></div>
-          </div>
-        </Link>
-        
-        <div className='flex items-center'>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            {/* ... existing nav items ... */}
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/'>Home</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#about'>About</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#skills'>Tech-Stack</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/grid'>Grid</Link>
-            </li>
-          </ul>
-
-          {/* Social Icons for Desktop */}
-          <div className='hidden md:flex ml-10'>
-            <a href='https://linkedin.com/in/javan-mugambi-2351a81b0/' target='_blank' rel='noreferrer' className='p-3 rounded-full shadow-lg shadow-gray-400 hover:shadow-blue-500/40 transition-all duration-300 hover:-translate-y-1 mx-2'>
-              <FaLinkedinIn className='text-blue-600' />
-            </a>
-            <a href='https://github.com/mugambijavan' target='_blank' rel='noreferrer' className='p-3 rounded-full shadow-lg shadow-gray-400 hover:shadow-gray-500/40 transition-all duration-300 hover:-translate-y-1 mx-2'>
-              <FaGithub className='text-gray-600' />
-            </a>
-            <a href='mailto:mugambijavan@gmail.com' className='p-3 rounded-full shadow-lg shadow-gray-400 hover:shadow-red-500/40 transition-all duration-300 hover:-translate-y-1 mx-2'>
-              <AiOutlineMail className='text-red-600' />
-            </a>
-          </div>
-
-          <div
-            style={{ color: `${linkColor}` }}
-            onClick={handleNav}
-            className='md:hidden ml-4'
+      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-2">
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
+            className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full flex items-center justify-center"
           >
-            <AiOutlineMenu size={25} />
+            改
+          </motion.div>
+          <span className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">善</span>
+        </Link>
+
+        {/* Desktop Links */}
+        <div className="hidden md:flex items-center gap-4">
+          {navItems.map((item, i) => (
+            <Link key={i} href={item.href} className="relative px-3 py-2 text-sm text-gray-300 hover:text-blue-400">
+              {item.name}
+              <motion.span
+                whileHover={{ width: '100%' }}
+                className="absolute left-0 bottom-0 h-0.5 w-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full"
+                transition={{ duration: 0.3 }}
+              />
+            </Link>
+          ))}
+          <div className="flex gap-2 ml-4">
+            {socialLinks.map(({ icon, href}, i) => (
+              <motion.a
+                key={i}
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                whileHover={{ scale: 1.1, y: -2 }}
+                className={`p-2 rounded-full bg-gray-800/50 border border-gray-700 `}
+              >
+                {icon}
+              </motion.a>
+            ))}
           </div>
         </div>
+
+        {/* Mobile Button */}
+        <button onClick={handleNav} className="md:hidden p-2 rounded-lg bg-gray-800/50 border border-gray-700">
+          <AiOutlineMenu className="text-xl text-gray-300" />
+        </button>
       </div>
 
       {/* Mobile Menu */}
-      <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
-        <div className={
-          nav
-            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500'
-            : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
-        }>
-          <div>
-            <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
-                <div className='group relative cursor-pointer'>
-                  <span className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600'>
-                    Mugambi Javan
-                  </span>
-                  <div className='absolute -bottom-1 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-purple-600'></div>
-                </div>
-              </Link>
-              <div
-                onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:rotate-90 transition-all duration-300'
-              >
-                <AiOutlineClose />
+      <AnimatePresence>
+        {navOpen && (
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            variants={navVariant}
+            className="fixed inset-0 bg-black/80 backdrop-blur-sm z-40 md:hidden flex"
+            onClick={handleNav}
+          >
+            <motion.div
+              className="w-[80%] sm:w-[60%] h-full bg-gray-900/95 p-6"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex justify-between items-center mb-6">
+                <Link href="/" onClick={handleNav} className="flex items-center gap-2">
+                  <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full flex items-center justify-center">
+                    改
+                  </div>
+                  <span className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">善</span>
+                </Link>
+                <button onClick={handleNav} className="p-2 bg-gray-800 rounded-full border border-gray-700">
+                  <AiOutlineClose className="text-gray-300" />
+                </button>
               </div>
-            </div>
-            <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>
-                Kaizen 改善
-              </p>
-            </div>
-          </div>
-          <div className='py-4 flex flex-col h-[70%] justify-between'>
-            <ul className='uppercase'>
-              {/* ... existing mobile nav items ... */}
-              <li onClick={() => setNav(false)} className='py-4 text-sm hover:pl-2 transition-all duration-300'>
-                <Link href='/'>Home</Link>
-              </li>
-              <li onClick={() => setNav(false)} className='py-4 text-sm hover:pl-2 transition-all duration-300'>
-                <Link href='/#about'>About</Link>
-              </li>
-              <li onClick={() => setNav(false)} className='py-4 text-sm hover:pl-2 transition-all duration-300'>
-                <Link href='/#skills'>Tech-Stack</Link>
-              </li>
-              <li onClick={() => setNav(false)} className='py-4 text-sm hover:pl-2 transition-all duration-300'>
-                <Link href='/#projects'>Projects</Link>
-              </li>
-              <li onClick={() => setNav(false)} className='py-4 text-sm hover:pl-2 transition-all duration-300'>
-                <Link href='/resume'>Resume</Link>
-              </li>
-              <li onClick={() => setNav(false)} className='py-4 text-sm hover:pl-2 transition-all duration-300'>
-                <Link href='/grid'>Grid</Link>
-              </li>
-            </ul>
 
-            {/* Social Icons for Mobile */}
-            <div className='pt-20'>
-              <div className='flex items-center justify-center gap-6'>
-                <a href='https://linkedin.com' target='_blank' rel='noreferrer' className='p-3 rounded-full shadow-lg shadow-gray-400 hover:shadow-blue-500/40 transition-all duration-300 hover:-translate-y-1'>
-                  <FaLinkedinIn className='text-blue-600' />
-                </a>
-                <a href='https://github.com' target='_blank' rel='noreferrer' className='p-3 rounded-full shadow-lg shadow-gray-400 hover:shadow-gray-500/40 transition-all duration-300 hover:-translate-y-1'>
-                  <FaGithub className='text-gray-600' />
-                </a>
-                <a href='mailto:contact@example.com' className='p-3 rounded-full shadow-lg shadow-gray-400 hover:shadow-red-500/40 transition-all duration-300 hover:-translate-y-1'>
-                  <AiOutlineMail className='text-red-600' />
-                </a>
-                <a href='/resume' className='p-3 rounded-full shadow-lg shadow-gray-400 hover:shadow-purple-500/40 transition-all duration-300 hover:-translate-y-1'>
-                  <BsFillPersonLinesFill className='text-purple-600' />
-                </a>
+              <ul className="space-y-5 mt-10">
+                {navItems.map((item, i) => (
+                  <motion.li
+                    key={i}
+                    variants={itemVariant}
+                    onClick={handleNav}
+                    className="text-gray-300 text-lg font-medium flex items-center gap-3 border-b border-gray-700 pb-3"
+                  >
+                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                    <Link href={item.href}>{item.name}</Link>
+                  </motion.li>
+                ))}
+              </ul>
+
+              <div className="mt-12 border-t border-gray-800 pt-6">
+                <p className="text-sm text-gray-500 mb-3">Connect with me</p>
+                <div className="flex gap-4">
+                  {socialLinks.map(({ icon, href, gradient }, i) => (
+                    <motion.a
+                      key={i}
+                      href={href}
+                      target="_blank"
+                      rel="noreferrer"
+                      whileHover={{ scale: 1.1, y: -2 }}
+                      className={`p-3 rounded-full bg-gray-800/50 border border-gray-700 hover:bg-gradient-to-r ${gradient}`}
+                    >
+                      {icon}
+                    </motion.a>
+                  ))}
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.nav>
   );
 };
 
