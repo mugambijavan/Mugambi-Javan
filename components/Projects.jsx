@@ -1,12 +1,8 @@
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn, FaTelegram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import ProjectItem from './ProjectItem';
 
-// Import all your project images
+// import images...
 import animatedwebsiteImg from '../public/assets/projects/animatedwebsite.png';
 import exquisitetastesImg from '../public/assets/projects/exquisite.png';
 import insightImg from '../public/assets/projects/insight.png';
@@ -47,35 +43,17 @@ const Projects = () => {
     { title: 'Simple company Website', backgroundImg: simplewebImg, projectUrl: '/simpleweb' }
   ];
 
-  const socialLinks = [
-    { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/in/javan-mugambi-2351a81b0/', color: 'hover:text-[#0077b5]' },
-    { icon: <FaGithub />, href: 'https://github.com/mugambijavan', color: 'hover:text-[#333]' },
-    { icon: <FaWhatsapp />, href: 'https://wa.me/+254727761646', color: 'hover:text-[#25D366]' },
-    { icon: <AiOutlineMail />, href: 'mailto:mugambijavan@gmail.com', color: 'hover:text-[#EA4335]' },
-    { icon: <FaTwitter />, href: 'https://twitter.com/mugambi_javan', color: 'hover:text-[#1DA1F2]' },
-    { icon: <FaTelegram />, href: 'https://t.me/KamiriJavan', color: 'hover:text-[#0088cc]' }
-  ];
-
-  // Animation variants
   const container = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.3,
-      },
+      transition: { staggerChildren: 0.1, delayChildren: 0.3 },
     },
   };
 
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 },
-  };
-
   return (
-    <section id='projects' className='w-full py-20 bg-gray-50'>
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+    <section id='projects' className='w-full py-24 bg-gray-100'>
+      <div className='max-w-7xl mx-auto px-4'>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -83,64 +61,31 @@ const Projects = () => {
           viewport={{ once: true }}
           className='text-center mb-16'
         >
-          <p className='text-lg font-semibold text-[#5651e5] tracking-widest uppercase mb-3'>
+          <p className='text-lg font-bold text-[#5651e5] uppercase tracking-wider'>
             My Work
           </p>
-          <h2 className='text-4xl font-bold text-gray-900 mb-4'>
+          <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
             Featured Projects
           </h2>
-          <p className='text-xl text-gray-600 max-w-2xl mx-auto'>
-            Elevating user experiences through responsive web development
+          <p className='text-lg text-gray-600 max-w-2xl mx-auto'>
+            Elevating user experiences through responsive web development.
           </p>
         </motion.div>
 
+        {/* Grid layout */}
         <motion.div
           variants={container}
           initial='hidden'
           whileInView='show'
           viewport={{ once: true }}
-          className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'
+          className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'
         >
           {projects.map((project, index) => (
-            <motion.div key={index} variants={item}>
-              <ProjectItem
-                title={project.title}
-                backgroundImg={project.backgroundImg}
-                projectUrl={project.projectUrl}
-              />
+            <motion.div key={index} variants={container}>
+              <ProjectItem {...project} />
             </motion.div>
           ))}
         </motion.div>
-
-        <motion.footer
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          viewport={{ once: true }}
-          className="mt-16 bg-white rounded-xl shadow-sm py-8"
-        >
-          <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-xl font-medium text-gray-800 mb-6">Let's Connect</h3>
-            <div className="flex justify-center space-x-6">
-              {socialLinks.map((link, index) => (
-                <motion.a
-                  key={index}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ y: -5, scale: 1.1 }}
-                  className={`p-3 rounded-full bg-gray-100 ${link.color} transition-colors text-gray-700`}
-                >
-                  <span className="text-xl">{link.icon}</span>
-                </motion.a>
-              ))}
-            </div>
-            <p className="mt-6 text-gray-600">
-              © {new Date().getFullYear()} Mugambi Javan. All rights reserved.
-            </p>
-            <h3 className="text-xl font-medium text-gray-800 mb-6">I'm not just a Dev</h3>
-          </div>
-        </motion.footer>
       </div>
     </section>
   );

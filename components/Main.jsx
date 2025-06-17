@@ -39,27 +39,6 @@ const AnimatedText = ({ text }) => {
   );
 };
 
-const FloatingAvatar = () => (
-  <motion.div
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.8 }}
-    className="relative"
-  >
-    <div className="w-36 h-36 md:w-48 md:h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1">
-      <div className="w-full h-full bg-black rounded-full flex items-center justify-center">
-        <motion.div
-          initial={{ scale: 0.9, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          className="text-4xl text-blue-400 font-bold"
-        >
-          MJ
-        </motion.div>
-      </div>
-    </div>
-  </motion.div>
-);
 
 const Main = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -83,7 +62,6 @@ const Main = () => {
       className="min-h-screen flex items-center justify-center bg-black text-white px-6"
     >
       <div className="max-w-4xl text-center space-y-12 py-20">
-        <FloatingAvatar />
 
         <div className="space-y-4">
           <motion.h2
