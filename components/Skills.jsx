@@ -40,11 +40,10 @@ const Skills = () => {
     { name: 'Appwrite', icon: Appwrite },
   ];
 
-  // Duplicate the array for seamless looping
   const duplicatedSkills = [...skills, ...skills];
 
   return (
-    <section id='skills' className='w-full py-20 bg-gray-50'>
+    <section id='skills' className='w-full py-20 bg-black'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -56,10 +55,10 @@ const Skills = () => {
           <p className='text-lg font-semibold text-[#5651e5] tracking-widest uppercase mb-3'>
             Tech Stack
           </p>
-          <h2 className='text-4xl font-bold text-gray-900 mb-4'>
+          <h2 className='text-4xl font-bold text-white mb-4'>
             My Technical Expertise
           </h2>
-          <p className='text-xl text-gray-600 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             Tools and technologies I use to build exceptional digital experiences
           </p>
         </motion.div>
@@ -67,8 +66,8 @@ const Skills = () => {
         {/* Marquee Container */}
         <div className='overflow-hidden py-8 relative'>
           {/* Fade effect edges */}
-          <div className='absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-gray-50 to-transparent z-20' />
-          <div className='absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-gray-50 to-transparent z-20' />
+          <div className='absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-black to-transparent z-20' />
+          <div className='absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-black to-transparent z-20' />
 
           <motion.div
             className='flex'
@@ -85,10 +84,17 @@ const Skills = () => {
               <motion.div
                 key={`${skill.name}-${index}`}
                 className='flex-shrink-0 px-4'
-                whileHover={{ y: -5, scale: 1.05 }}
-                transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                whileHover={{ 
+                  y: -10, 
+                  scale: 1.05,
+                  transition: { 
+                    type: 'spring', 
+                    stiffness: 300, 
+                    damping: 10 
+                  } 
+                }}
               >
-                <div className='bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col items-center w-[200px]'>
+                <div className='bg-gray-900 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col items-center w-[200px] border border-gray-800'>
                   <div className='relative w-16 h-16 mb-4'>
                     <Image
                       src={skill.icon}
@@ -98,7 +104,7 @@ const Skills = () => {
                       className='filter grayscale hover:grayscale-0 transition-all duration-300'
                     />
                   </div>
-                  <h3 className='text-lg font-medium text-gray-800'>{skill.name}</h3>
+                  <h3 className='text-lg font-medium text-white'>{skill.name}</h3>
                 </div>
               </motion.div>
             ))}

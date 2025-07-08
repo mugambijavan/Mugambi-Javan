@@ -1,46 +1,33 @@
+// Add to your ProjectItem.jsx
+import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 
 const ProjectItem = ({ title, backgroundImg, projectUrl }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      whileHover={{ scale: 1.03 }}
-      transition={{ duration: 0.4 }}
-      viewport={{ once: true }}
-      className="relative overflow-hidden rounded-2xl shadow-xl group bg-white"
-    >
-      {/* Image */}
-      <div className="relative h-64 w-full">
-        <Image
-          src={backgroundImg}
-          alt={title}
-          fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
-      </div>
-
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/10 group-hover:bg-black/60 transition-colors duration-300" />
-
-      {/* Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <h3 className="text-xl sm:text-2xl font-semibold mb-4 drop-shadow-lg text-center">{title}</h3>
-        <Link href={projectUrl} passHref legacyBehavior>
-          <motion.a
+    <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-900 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]'>
+      <Image
+        className='rounded-xl group-hover:opacity-10'
+        src={backgroundImg}
+        alt={title}
+      />
+      <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+        <h3 className='text-2xl font-bold text-white tracking-wider text-center'>
+          {title}
+        </h3>
+        <p className='pb-4 pt-2 text-white text-center'>View Project</p>
+        <Link href={projectUrl}>
+          <motion.div 
+            className='text-center py-3 px-6 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-white text-[#5651e5] font-semibold px-5 py-2 rounded-lg shadow-md hover:bg-gray-100 transition"
           >
-            View Project
-          </motion.a>
+            More Info
+          </motion.div>
         </Link>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

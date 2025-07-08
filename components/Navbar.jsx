@@ -24,7 +24,6 @@ const Navbar = () => {
     { name: 'Tech-Stack', href: '/#skills' },
     { name: 'Projects', href: '/#projects' },
     { name: 'Resume', href: '/resume' },
-    { name: 'Grid', href: '/grid' },
   ];
 
   const socialLinks = [
@@ -135,7 +134,7 @@ const Navbar = () => {
             animate="visible"
             exit="exit"
             variants={navVariant}
-            className="fixed inset-0 bg-black/90 backdrop-blur-sm z-40 md:hidden flex"
+            className="fixed inset-0 bg-black z-40 md:hidden flex"
             onClick={handleNav}
           >
             <motion.div
