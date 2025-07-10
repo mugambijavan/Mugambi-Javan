@@ -33,7 +33,7 @@ const kamili = () => {
           </p>
           
           <a
-            href='https://kamiliwellness.org'
+            href='https://kamili-mental-health.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -50,18 +50,11 @@ const kamili = () => {
               <p className='py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> React
               </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Firebase
-              </p>
+              
               <p className='py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Tailwind CSS
               </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Calendly API
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> HIPAA-compliant Auth
-              </p>
+              
             </div>
           </div>
         </div>

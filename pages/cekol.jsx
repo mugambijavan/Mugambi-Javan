@@ -33,7 +33,7 @@ const cekol = () => {
           </p>
           
           <a
-            href='https://cekol-construction.com'
+            href='https://cekol-engineering-website.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -50,18 +50,11 @@ const cekol = () => {
               <p className='py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Next.js
               </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Three.js
-              </p>
+             
               <p className='py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Tailwind CSS
               </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Contentful CMS
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Framer Motion
-              </p>
+           
             </div>
           </div>
         </div>

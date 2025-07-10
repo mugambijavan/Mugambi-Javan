@@ -33,7 +33,7 @@ const ceed = () => {
           </p>
           
           <a
-            href='https://ceed-farming.org'
+            href='https://ceed-golden-farm.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -49,15 +49,6 @@ const ceed = () => {
             <div className='grid grid-cols-1'>
               <p className='py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> React
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Node.js
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> MongoDB
-              </p>
-              <p className='py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Mapbox API
               </p>
               <p className='py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1 text-[#5651e5]' /> Tailwind CSS
